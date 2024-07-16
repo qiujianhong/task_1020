@@ -1,0 +1,6 @@
+﻿在build目录下执行
+./make.sh
+
+
+可执行文件及lib在target中，
+目前固定在/data/app/test/bin和、lib 下，可通过cmake设置修改

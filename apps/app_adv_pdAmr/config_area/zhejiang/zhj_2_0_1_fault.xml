@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="故障">
+  
+  <Item Addr="00000102" Name="配电变压器停电(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100001" ReportNum="0" YxNum="0" YcNum="0" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  </Item>
+  
+  <Item Addr="00000103" Name="配电变压器A相电压过压(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100002" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000001" />
+  	<SubOAD ReportAddr="00000002" />
+  	<SubOAD ReportAddr="00000003" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000104" Name="配电变压器B相电压过压(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100003" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000001" />
+  	<SubOAD ReportAddr="00000002" />
+  	<SubOAD ReportAddr="00000003" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000105" Name="配电变压器C相电压过压(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100004" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000001" />
+  	<SubOAD ReportAddr="00000002" />
+  	<SubOAD ReportAddr="00000003" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000106" Name="配电变压器A相电流越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100005" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000004" />
+  	<SubOAD ReportAddr="00000005" />
+  	<SubOAD ReportAddr="00000006" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000107" Name="配电变压器B相电流越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100006" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000004" />
+  	<SubOAD ReportAddr="00000005" />
+  	<SubOAD ReportAddr="00000006" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000108" Name="配电变压器C相电流越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100007" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000004" />
+  	<SubOAD ReportAddr="00000005" />
+  	<SubOAD ReportAddr="00000006" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000109" Name="配电变压器A相电压断相(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100008" ReportNum="0" YxNum="0" YcNum="0" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  </Item>
+  
+  <Item Addr="0000010A" Name="配电变压器B相电压断相(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100009" ReportNum="0" YxNum="0" YcNum="0" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  </Item>
+  
+  <Item Addr="0000010B" Name="配电变压器C相电压断相(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="0010000A" ReportNum="0" YxNum="0" YcNum="0" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  </Item>
+  
+  <Item Addr="0000010C" Name="配电变压器A相电压缺相(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="0010000B" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000010D" Name="配电变压器B相电压缺相(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="0010000C" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000010E" Name="配电变压器C相电压缺相(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="0010000D" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000010F" Name="配电变压器电流不平衡越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="0010000E" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000110" Name="负荷过载(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="0010000F" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000004" />
+  	<SubOAD ReportAddr="00000005" />
+  	<SubOAD ReportAddr="00000006" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000111" Name="配电变压器电压逆向序(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100010" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000112" Name="配电变压器电流逆向序(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100011" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000113" Name="配电变压器A相电流反极性(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100012" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000114" Name="配电变压器B相电流反极性(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100013" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000115" Name="配电变压器C相电流反极性(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100014" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000116" Name="配电变压器无功过补偿(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100015" ReportNum="0" YxNum="0" YcNum="0" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  </Item>
+  
+  <Item Addr="00000117" Name="配电变压器无功欠补偿(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100016" ReportNum="0" YxNum="0" YcNum="0" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  </Item>
+  
+  <Item Addr="00000118" Name="配电变压器零序电流偏大(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100017" ReportNum="4" YxNum="0" YcNum="4" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000004" />
+  	<SubOAD ReportAddr="00000005" />
+  	<SubOAD ReportAddr="00000006" />
+	<SubOAD ReportAddr="0000001D" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000119" Name="电压不平衡越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000022" />
+  	<SubOAD ReportAddr="00000023" />
+  	<SubOAD ReportAddr="00000024" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000011A" Name="A相电压畸变率越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000181" />
+  	<SubOAD ReportAddr="00000182" />
+  	<SubOAD ReportAddr="00000183" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000011B" Name="B相电压畸变率越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000181" />
+  	<SubOAD ReportAddr="00000182" />
+  	<SubOAD ReportAddr="00000183" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000011C" Name="C相电压畸变率越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000181" />
+  	<SubOAD ReportAddr="00000182" />
+  	<SubOAD ReportAddr="00000183" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000011D" Name="A相电流畸变率越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000191" />
+  	<SubOAD ReportAddr="00000192" />
+  	<SubOAD ReportAddr="00000193" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000011E" Name="B相电流畸变率越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000191" />
+  	<SubOAD ReportAddr="00000192" />
+  	<SubOAD ReportAddr="00000193" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="0000011F" Name="C相电流畸变率越限(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00000000" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000191" />
+  	<SubOAD ReportAddr="00000192" />
+  	<SubOAD ReportAddr="00000193" />
+  </SubItem>
+  </Item>
+  
+  <!-- 临时添加  电压欠压 -->
+  
+  <Item Addr="00000120" Name="配电变压器A相电压欠压(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100020" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000001" />
+  	<SubOAD ReportAddr="00000002" />
+  	<SubOAD ReportAddr="00000003" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000121" Name="配电变压器B相电压欠压(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100021" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000001" />
+  	<SubOAD ReportAddr="00000002" />
+  	<SubOAD ReportAddr="00000003" />
+  </SubItem>
+  </Item>
+  
+  <Item Addr="00000122" Name="配电变压器C相电压欠压(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="2" FaultYxAddr="00100022" ReportNum="3" YxNum="0" YcNum="3" YcTiNum="0" EnNum="0" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00000001" />
+  	<SubOAD ReportAddr="00000002" />
+  	<SubOAD ReportAddr="00000003" />
+  </SubItem>
+  </Item>
+  
+</Table>

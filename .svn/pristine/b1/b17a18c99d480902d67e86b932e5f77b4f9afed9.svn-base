@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="遥测">
+	<!-- 第一部分 不带时标遥测数据信息表(00xxxx) -->
+	
+	<Item Addr="00000001" Name="配电箱内温度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000002" Name="配电箱内湿度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000003" Name="当日 A 相阻抗（电阻）数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000004" Name="当日 B 相阻抗（电阻）数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000005" Name="当日 C 相阻抗（电阻）数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000006" Name="上日 A 相阻抗（电阻）数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000007" Name="上日 B 相阻抗（电阻）数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000008" Name="上日 C 相阻抗（电阻）数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000009" Name="上日 A 相的阻抗数据偏离度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="0000000A" Name="上日 B 相的阻抗数据偏离度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="0000000B" Name="上日 C 相的阻抗数据偏离度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="0000000C" Name="上日 A 相电抗数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="0000000D" Name="上日 B 相电抗数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="0000000E" Name="上日 C 相电抗数据" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="0000000F" Name="上日台区线损" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000010" Name="上日低压配线线损" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	</Item>
+	<Item Addr="00000011" Name="终端累计运行时间" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10" LogicId="1" InfoNum="0" MainOAD="CCCCCCCC" OadColsNum="0" Index="0" FullValue="32768" DealType="30020002" ArrLen="0">
+	</Item>
+	
+</Table>

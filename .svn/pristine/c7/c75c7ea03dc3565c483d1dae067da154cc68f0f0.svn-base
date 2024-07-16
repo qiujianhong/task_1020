@@ -1,0 +1,18 @@
+1.运行时依赖hal驱动power,rtc,bt,devinfo,lcd；
+2.解压smiOS.tar到统一规范的安装路径， 命令为tar -xvf smiOS.tar -C /usr/local/extapps/； 
+3.在/usr/local/extapps/smiOS/bin下执行sudo sh startup_app.sh
+4.网卡路径配置说明：
+    在/etc/下新建smiOS.conf配置文件，网卡文件路径配置项示例格式如下：
+    FE0_PATH = /usr/local/extapps/FE0
+    FE1_PATH = /usr/local/extapps/FE1
+    
+    网卡文件内容格式如下：
+    [Match]
+    Name=网卡名称
+    [Link]
+    MACAddress=xx:xx:xx:xx:xx:xx
+    
+    [Network]
+    #DHCP=yes
+    Address=xx.xx.xx.xx/xx
+    Gateway=xx.xx.xx.xx

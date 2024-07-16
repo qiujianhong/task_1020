@@ -1,0 +1,5 @@
+# MQTT SERVER CONFIG
+[MQTT_CONF]
+IP 					= 172.17.0.1
+PORT 				= 1883
+DEBUG   			= no

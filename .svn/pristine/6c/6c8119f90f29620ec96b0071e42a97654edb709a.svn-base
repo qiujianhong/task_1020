@@ -1,0 +1,34 @@
+#ifndef __SMIOS_CONFIG_H__
+#define __SMIOS_CONFIG_H__
+
+#ifdef __cplusplus
+extern "C"
+{
+
+#endif
+//主版本号 由CMAKE指定
+#define smiOS_VERSION_MAJOR @smiOS_VERSION_MAJOR@
+//次版本号 由CMAKE指定
+#define smiOS_VERSION_MINOR @smiOS_VERSION_MINOR@
+//PATCH本号 由CMAKE指定
+#define smiOS_VERSION_PATCH @smiOS_VERSION_PATCH@
+// SVN版本本号 由SVN指定
+#define smiOS_VERSION_SVN @smiOS_VERSION_SVN@
+
+// DISABLE HAL FUNC
+#define DISABLE_HAL @DISABLE_HAL@
+
+//定义该宏编译时输出MSG头部信息
+#define MSG_HEADER_DEBUG
+
+//定义该宏输出配置文件信息
+#define GLOBAL_CONFIG_DUMP
+
+//开启OLOG输出
+#define ENABLE_OLOG
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

@@ -1,0 +1,59 @@
+#!/bin/bash
+CURDIR=$(cd $(dirname $0) && pwd )
+echo $CURDIR
+cd $CURDIR
+
+TARNAME=$(cat md5.txt |grep "package_"|grep ".tar.gz")
+MD5=$(cat md5.txt |grep -v "package_")
+MD5=$(echo $MD5 | tr "[:lower:]" "[:upper:]")
+
+TARMD5=`md5sum $TARNAME | awk '{ print $1}'`
+TARMD5=$(echo $TARMD5 | tr "[:lower:]" "[:upper:]")
+
+updatetools(){
+	step="$1"
+	Info="$2"
+
+	if [ -f /tmp/lcdctrl ]; then
+		echo "" > /tmp/showlcdtxt
+		echo "      U盘升级" >> /tmp/showlcdtxt
+		echo "" >> /tmp/showlcdtxt
+		echo "" >> /tmp/showlcdtxt
+		echo "" >> /tmp/showlcdtxt
+		echo "进度: "$step"%" >> /tmp/showlcdtxt
+		
+		num=$(($step / 5))
+		stepshow=
+		for i in `seq 1 20`; do
+			if [ $i -le $num ]; then
+				stepshow=$stepshow"-"
+			fi
+		done
+		echo $stepshow >> /tmp/showlcdtxt
+		echo "" >> /tmp/showlcdtxt
+		infilen=${#Info}
+		spacepass="                    "
+		if [ $infilen -ge 20 ]; then
+			echo $infilen >> /tmp/showlcdtxt
+		else
+			spacelen=$((20 - $infilen))
+			spacelen=$(($spacelen / 2))
+			echo "${spacepass:0:$spacelen}"$Info >> /tmp/showlcdtxt
+		fi
+		/tmp/lcdctrl 160 160 0 -f /tmp/showlcdtxt
+		/tmp/lcdctrl 160 160 0 -f /tmp/showlcdtxt
+		sleep 1
+	fi
+}
+
+if [ "$TARMD5" == "$MD5" ]; then
+	rm -rf /etc/hook.sh
+	sync;sync 
+	chmod 755 setup
+	./setup
+else
+	cp -rf lcdctrl /tmp/
+	chmod 755 /tmp/lcdctrl
+	updatetools 0 "程序异常 请检查U盘"
+	sleep 200s
+fi

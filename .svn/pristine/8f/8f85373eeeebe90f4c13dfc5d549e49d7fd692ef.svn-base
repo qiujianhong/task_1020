@@ -1,0 +1,47 @@
+#
+# acMeter.ini
+#
+
+[mqtt]
+MQTTIP = 172.17.0.1
+MQTTPORT = 1883
+
+[FILEPATH_CONF]
+IPCPATH		= /mnt/ipc_socket
+LOGPATH		= /data/app/acMeter/log
+
+# LOGCTRL bitstring(5): 1-enable 0-disable
+# bit |  4  |  3  |  2  |  1  |  0  |
+# -----------------------
+# val |merge|trlog|logcc|debug|trace|
+# merge:日志合并使能，开启后，日志合并输出到{appname}.log文件中
+# trlog:trace类型写日志使能 logcc:logcc类型写日志使能 debug:debug类型打印使能 trace:trace类型打印使能
+[LOGCTRL_CONF]
+LOGACCOMM      = 0,1,10
+LOGACDB        = 0,1,10
+LOGACUDP       = 0,1,15
+LOGACMQTT      = 0,1,5
+LOGAC485COM    = 0,1,15
+LOGTMCHK       = 0,1,15
+LOGSELFCHK     = 0,1,15
+LOGSTAT        = 0,1,15
+LOGACSAMP      = 0,1,15
+
+# 是否支持转发485串口报文: 1-enable 0-disable
+[RELAY_CONF]
+AC485FLAG = 1
+
+# 周期采集采用的规约，0-DLT645 1-698.45 2-自适应底板
+[SAMP_CONF]
+PRTL = 1
+
+# 串口方式访问交采底板(只针对698底板有效)
+# ENABLE:1-enable 0-disable
+# PARITY:'n'  'e'  'o'  's' = None, Even, Odd, Space
+[UART_CONF]
+ENABLE   = 1
+DEV      = /dev/ttyS1
+BAUDRATE = 115200
+BYTESIZE = 8
+PARITY   = e
+STOPBITS = 1

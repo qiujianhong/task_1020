@@ -1,0 +1,11 @@
+（1）SecReinf.tar放置在/usr/sec-app/package/work/路径，并解压到此路径下；
+（2）由操作系统运行/usr/sec-app/package/work/SecReinf/bin/startup_app.sh启动secReinf
+（3）APP验签及启动列表在/usr/sec-app/package/work/SecReinf/cfg/applist.xml
+（4）运行日志在/data/app/SecReinf/log/路径下
+（5）功能：
+     验签uboot
+	 验签kernel
+	 验签APP并解压启动
+	 ESAM代理
+	 SSAL协议加解密
+	 应用APP摘要及签名信息

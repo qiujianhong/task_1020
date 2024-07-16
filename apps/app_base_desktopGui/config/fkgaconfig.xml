@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<FKGA Width="160" Height="160" LightonTime="20" TrunDispTime="60" Template="16777215" MenuId="10813440" MenuMaxCnt="6" Left1="8" Top="58" MenuInterval="38">
+	<Menus>
+		<Menu Name="系统管理维护" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="0">
+			<Menu Name="安全模式" Visible="0">
+				<Plugin Id="786435" HexId="0x000c0003"/>
+			</Menu>
+			<Menu Name="终端地址" Visible="0">
+				<Plugin Id="285409297" HexId="0x11030011"/>
+			</Menu>
+			<Menu Name="SSH服务设置" Visible="0">
+				<Plugin Id="10485968" HexId="0x00A000D0"/>
+			</Menu>
+			<Menu Name="TCPDump设置" Visible="0">
+				<Plugin Id="10485969" HexId="0x00A000D1"/>
+			</Menu> 
+			<Menu Name="U盘升级" Visible="0">
+				<Plugin Id="10486000" HexId="0x00a000f0"/>
+			</Menu> 
+			<Menu Name="日志导出" Visible="0">
+				<Plugin Id="10486001" HexId="0x00a000f1"/>
+			</Menu>
+			<Menu Name="密码修改" Visible="0">
+				<Plugin Id="10486002" HexId="0x00a000f2"/>
+			</Menu>			
+			<Menu Name="日志清除" Visible="0">
+				<Plugin Id="10486003" HexId="0x00A000F3"/>
+			</Menu>
+			<Menu Name="模组升级" Visible="0">
+				<Plugin Id="10486004" HexId="0x00A000F4"/>
+			</Menu>
+			<Menu Name="System命令" Visible="0">
+				<Plugin Id="10486005" HexId="0x00A000F5"/>
+			</Menu>
+			<Menu Name="交采模块升级" Visible="0">
+				<Plugin Id="10486006" HexId="0x00A000F6"/>
+			</Menu>
+			<Menu Name="交采模块版本" Visible="0">
+				<Plugin Id="10486010" HexId="0x00A000FA"/>
+			</Menu>
+			<Menu Name="协处理器升级" Visible="0">
+				<Plugin Id="10486014" HexId="0x00A000FE"/>
+			</Menu>
+			<Menu Name="协处理器版本" Visible="0">
+				<Plugin Id="10486013" HexId="0x00A000FD"/>
+			</Menu>
+			<Menu Name="蓝牙功能设置" Visible="0">
+				<Plugin Id="10486007" HexId="0x00A000F7"/>
+			</Menu>
+			<Menu Name="CPU当前温度" Visible="0">
+				<Plugin Id="10486008" HexId="0x00A000F8"/>
+			</Menu>
+			<Menu Name="流水号查询" Visible="0">
+				<Plugin Id="10486016" HexId="0x00A00100"/>
+			</Menu>
+			<Menu Name="电源供电状态" Visible="0">
+				<Plugin Id="10486009" HexId="0x00A000F9"/>
+			</Menu>
+			<Menu Name="无线拨号方式" Visible="0">
+				<Plugin Id="10486012" HexId="0x00A000FC"/>
+			</Menu>
+			<Menu Name="系统版本信息" Visible="0">
+				<Plugin Id="10486015" HexId="0x00A000FF"/>
+			</Menu>
+			<Menu Name="HPLC升级" Visible="0">
+				<Plugin Id="786438" HexId="0x000c0006"/>
+			</Menu>
+			</Menu>    	
+		<Menu Name="终端维护" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="2">
+			<Menu Name="磁盘状态" Visible="2">
+				<Plugin Id="11534577" HexId="0x00B000F1"/>
+			</Menu>
+		</Menu>
+	</Menus>
+	<TrunDisp Intervel="120">
+	</TrunDisp>
+</FKGA>

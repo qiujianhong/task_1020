@@ -1,0 +1,38 @@
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/mnt/bin
+export LD_LIBRARY_PATH=/lib:/usr/lib:/mnt:/mnt/lib:/lib32
+
+if [ "$PS1" ]; then
+	if [ "`id -u`" -eq 0 ]; then
+		export PS1='[\u@\h:\w]# '
+	else
+		export PS1='[\u@\h:\w]$ '
+	fi
+fi
+
+export PAGER='/bin/more '
+export EDITOR='/bin/vi'
+
+# Source configuration files from /etc/profile.d
+for i in /etc/profile.d/*.sh ; do
+	if [ -r "$i" ]; then
+		. $i
+	fi
+	unset i
+done
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/qt5.12/lib:/usr/lib/qt5.12/plugins/platforms:/usr/lib/qt5.12/plugins/platforminputcontexts:/usr/lib/tslib/lib
+export LANG=en_US.UTF-8
+export T_ROOT=/usr/lib/tslib
+export TSLIB_CONSOLEDEVICE=none
+export TSLIB_FBDEVICE=/dev/fb0
+export TSLIB_TSDEVICE=/dev/input/event0
+export TSLIB_PLUGINDIR=$T_ROOT/lib/ts
+export TSLIB_CONFFILE=$T_ROOT/etc/ts.conf
+
+export QTEDIR=/usr/lib/qt5.12
+export QT_QPA_GENERIC_PLUGINS=tslib:/dev/input/event0
+export QT_QPA_FONTDIR=/usr/share/fonts
+export QT_QWS_FONTDIR=/usr/share/fonts
+export QT_QPA_PLATFORM_PLUGIN_PATH=$QTEDIR/plugins 
+export QT_QPA_PLATFORM=linuxfb:fb=/dev/fb0:size=1024x600:mmSize=1024x600:offset=0x0:tty=/dev/tty1
+export QT_QPA_FB_TSLIB=1

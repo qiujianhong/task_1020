@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="故障">
+  <Item Addr="0101" Name="终端停电" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  <SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0102" Name="终端自检" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0103" Name="A相电压断相" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFE" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0104" Name="B相电压断相" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFE" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0105" Name="C相电压断相" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0106" Name="A相电压失压" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0107" Name="B相电压失压" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0108" Name="C相电压失压" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0109" Name="A相电压越上限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="010a" Name="B相电压越上限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="010b" Name="C相电压越上限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="010c" Name="A相电压越下限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="010d" Name="B相电压越下限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="010e" Name="C相电压越下限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="010f" Name="A相电流越上限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0110" Name="B相电流越上限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0111" Name="C相电流越上限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0112" Name="A相电流越下限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0113" Name="B相电流越下限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0114" Name="C相电流越下限" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0115" Name="电压不平衡" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0116" Name="电流不平衡" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0117" Name="A相电流反极性" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0118" Name="B相电流反极性" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="0119" Name="C相电流反极性" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="011a" Name="相序异常(电压)" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+  <Item Addr="011b" Name="相序异常(电流)" Type="M_FT_NA_1" FaultYxAddr="0001" ReportNum="8" MainOAD="FFFFFFFF" Index="0">
+  	<SubItem> 
+  	<SubOAD ReportAddr="4001" />
+  	<SubOAD ReportAddr="4002" />
+  	<SubOAD ReportAddr="4003" />
+  	<SubOAD ReportAddr="4004" />
+  	<SubOAD ReportAddr="4005" />
+  	<SubOAD ReportAddr="4006" />
+  	<SubOAD ReportAddr="4007" />
+  	<SubOAD ReportAddr="4008" />
+  </SubItem>
+  </Item>
+</Table>

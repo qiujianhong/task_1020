@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="电度">
+  <Item Addr="6401" Name="当前正向有功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="0" DealType="00000000">
+  </Item>
+  <Item Addr="6402" Name="当前正向无功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="0" DealType="00000000">
+  </Item>
+  <Item Addr="6403" Name="当前反向有功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00200200" OadColsNum="0" Index="0" DealType="00000000">
+  </Item>
+  <Item Addr="6404" Name="当前反向无功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00400200" OadColsNum="0" Index="0" DealType="00000000">
+  </Item>
+  <Item Addr="6405" Name="15分钟冻结当前正向有功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="0" DealType="64010001">
+  </Item>
+  <Item Addr="6406" Name="15分钟冻结当前正向无功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="0" DealType="64010001">
+  </Item>
+  <Item Addr="6407" Name="15分钟冻结当前反向有功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00200200" OadColsNum="0" Index="0" DealType="64010001">
+  </Item>
+  <Item Addr="6408" Name="15分钟冻结当前反向无功电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00400200" OadColsNum="0" Index="0" DealType="64010001">
+  </Item>
+  <Item Addr="6409" Name="日总有功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="0" DealType="64010002">
+  </Item>
+  <Item Addr="640A" Name="日总无功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="0" DealType="64010002">
+  </Item>
+  <Item Addr="640B" Name="日尖段有功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="1" DealType="64010002">
+  </Item>
+  <Item Addr="640C" Name="日尖段无功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="1" DealType="64010002">
+  </Item>
+  <Item Addr="640D" Name="日峰段有功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="2" DealType="64010002">
+  </Item>
+  <Item Addr="640E" Name="日峰段无功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="2" DealType="64010002">
+  </Item>
+  <Item Addr="640F" Name="日平段有功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="3" DealType="64010002">
+  </Item>
+  <Item Addr="6410" Name="日平段无功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="3" DealType="64010002">
+  </Item>
+  <Item Addr="6411" Name="日谷段有功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00100200" OadColsNum="0" Index="4" DealType="64010002">
+  </Item>
+  <Item Addr="6412" Name="日谷段无功电量" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0.1" LogicId="1" InfoNum="0" MainOAD="00300200" OadColsNum="0" Index="4" DealType="64010002">
+  </Item>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<FKGA Width="160" Height="160" LightonTime="20" TrunDispTime="60" Template="16777215" MenuId="10485760" MenuMaxCnt="6" Left1="24" Top="32" MenuInterval="1">
+	<Menus>
+		<Menu Name="交采数据显示" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="当前正向电能显示">
+				<Plugin Id="285278209" HexId="0x11010001"/>
+			</Menu> 
+			<Menu Name="当前反向电能显示">
+				<Plugin Id="285278210" HexId="0x11010002"/>
+			</Menu> 
+			<Menu Name="四象限无功电能显示">
+				<Plugin Id="285278211" HexId="0x11010003"/>
+			</Menu> 
+			<Menu Name="电压电流数据显示">
+				<Plugin Id="285278212" HexId="0x11010004"/>
+			</Menu> 
+			<Menu Name="当前功率示数显示">
+				<Plugin Id="285278213" HexId="0x11010005"/>
+			</Menu> 
+			<Menu Name="正反向有功需量显示">
+				<Plugin Id="285278214" HexId="0x11010006"/>
+			</Menu> 
+		</Menu>
+		<Menu Name="感知设备数据显示" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="电能表数据显示">
+				<Plugin Id="285343745" HexId="0x11020001"/>
+			</Menu> 
+			<Menu Name="开关数据显示">
+				<Plugin Id="554762241" HexId="0x21110001"/>
+			</Menu> 
+			<Menu Name="电容器数据显示">
+				<Plugin Id="554762242" HexId="0x21110002"/>
+			</Menu> 
+			<Menu Name="传感器数据显示">
+				<Plugin Id="554762243" HexId="0x21110003"/>
+			</Menu> 
+		</Menu>
+		<Menu Name="应用数据查看" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="遥信状态显示" >
+				<Plugin Id="554827777" HexId="0x21120001"/>
+			</Menu>
+			<Menu Name="主站连接状态显示" >
+				<Plugin Id="554827778" HexId="0x21120002"/>
+			</Menu>
+		</Menu>
+		<Menu Name="应用设置与查看" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="查看配电参数" MenuId="10485760" >					
+				<Menu Name="通信通道查看" >
+					<Plugin Id="554893313" HexId="0x21130001"/>
+					<Plugin Id="554893314" HexId="0x21130002"/>
+				</Menu>		
+				<Menu Name="感知设备参数查看" >
+					<Plugin Id="554893315" HexId="0x21130003"/>
+				</Menu>
+				<Menu Name="合格率参数查看" >
+					<Plugin Id="554893316" HexId="0x21130004"/>
+				</Menu>		
+				<Menu Name="sntp参数查看" >
+					<Plugin Id="554893317" HexId="0x21130005"/>
+				</Menu>	
+			</Menu>
+			<Menu Name="设置配电参数" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1">					
+				<Menu Name="通信通道设置" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1"  Visible="1">
+					<Menu Name="101通信通道设置" >
+						<Plugin Id="554893329" HexId="0x21130011"/>
+					</Menu>
+					<Menu Name="104通信通道设置" >
+						<Plugin Id="554893330" HexId="0x21130012"/>
+					</Menu>
+				</Menu>		
+				<Menu Name="感知设备参数设置" >
+					<Plugin Id="554893331" HexId="0x21130013"/>
+				</Menu>
+				<Menu Name="合格率参数设置" >
+					<Plugin Id="554893332" HexId="0x21130014"/>
+				</Menu>		
+				<Menu Name="sntp参数设置" >
+					<Plugin Id="554893333" HexId="0x21130015"/>
+				</Menu>	
+			</Menu>							
+		</Menu>
+		<Menu Name="应用管理维护" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="重启应用">
+				<Plugin Id="285474818" HexId="0x11040002"/>
+			</Menu>
+			<Menu Name="数据初始化">
+				<Plugin Id="285474819" HexId="0x11040003"/>
+			</Menu>
+			<Menu Name="参数初始化">
+				<Plugin Id="285474820" HexId="0x11040004"/>
+			</Menu>
+			<Menu Name="应用版本信息">
+				<Plugin Id="285474823" HexId="0x11040007"/>
+			</Menu>
+		</Menu>
+	</Menus>
+	<TrunDisp Intervel="8">
+	</TrunDisp>
+</FKGA>

@@ -1,0 +1,22 @@
+
+[mqtt]
+MQTTIP = 172.17.0.1
+MQTTPORT = 1883
+
+[FILEPATH_CONF]
+LOGPATH		= /data/app/pdsManager/log
+IPCPATH		= /usr/local/extapps/pdsManager/socket
+PRIVATE_DIR = /data/app/pdsManager/data
+
+# LOGCTRL bitstring(5): 1-enable 0-disable
+# bit |  4  |  3  |  2  |  1  |  0  |
+# -----------------------
+# val |merge|trlog|logcc|debug|trace|
+# merge:日志合并使能，开启后，日志合并输出到{appname}.log文件中
+# trlog:trace类型写日志使能 logcc:logcc类型写日志使能 debug:debug类型打印使能 trace:trace类型打印使能
+# 第2列数字为单个日志文件大小，单位MB，第3列数据表示备份日志包个数
+
+[LOGCTRL_CONF]
+LOGPDS          = 8,2,10   
+LOGPDSDB        = 8,2,10 
+LOGMSG          = 8,2,10 

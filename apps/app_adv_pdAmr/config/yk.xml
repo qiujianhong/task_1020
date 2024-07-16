@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="遥控">
+  <Item Addr="6001" Name="遥控1" Type="C_SC_NA_1" MainOAD="FFFFFFFF" Index="0" Select="1"/>
+  <Item Addr="6002" Name="遥控2" Type="C_SC_NA_1" MainOAD="FFFFFFFE" Index="0" Select="1"/>
+  <Item Addr="6003" Name="遥控3" Type="C_SC_NA_1" MainOAD="FFFFFFFE" Index="0" Select="1"/>
+  <Item Addr="6004" Name="遥控4" Type="C_SC_NA_1" MainOAD="FFFFFFFF" Index="0" Select="1"/>
+  <Item Addr="6005" Name="遥控5" Type="C_SC_NA_1" MainOAD="FFFFFFFF" Index="0" Select="1"/>
+  <Item Addr="6006" Name="遥控6" Type="C_SC_NA_1" MainOAD="FFFFFFFF" Index="0" Select="1"/>
+  <Item Addr="6007" Name="遥控7" Type="C_SC_NA_1" MainOAD="FFFFFFFF" Index="0" Select="1"/>
+  <Item Addr="6008" Name="遥控8" Type="C_SC_NA_1" MainOAD="FFFFFFFF" Index="0" Select="1"/>
+</Table>

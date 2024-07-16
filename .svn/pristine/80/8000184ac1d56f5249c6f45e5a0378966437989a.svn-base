@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Meter</class>
+ <widget class="QWidget" name="Meter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>736</width>
+     <height>330</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{border-image: url(:/new/imgs/images/6_5_1.png);}</string>
+   </property>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>190</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>未知</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>单相</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>三相三线</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>三相四线</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>190</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>波特率</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ip">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>260</y>
+      <width>71</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../../imgs.qrc">
+      <normaloff>:/new/imgs/images/save.png</normaloff>:/new/imgs/images/save.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>90</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>未知</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DL/T 645-1997</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DL/T 645-2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>DL/T 698.45</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CJ/T 188-2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ModBus</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>通信地址</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>140</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>载波-1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>载波-2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>485-8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>交采</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>190</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>端口号</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>140</y>
+      <width>113</width>
+      <height>30</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>140</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>端口号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>90</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>测量点号</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>90</y>
+      <width>81</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>规约类型</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>190</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>300 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>600 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1200 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2400 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4800 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7200 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9600 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19200 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>38400 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>57600 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>115200 bps</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>自适应</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

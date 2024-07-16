@@ -1,0 +1,37 @@
+#
+# rspSample.ini
+#
+
+# MQTT服务端配置
+[MQTT_CONF]
+IP 		  = 172.17.0.1
+PORT 	  = 1883
+
+[FILEPATH_CONF]
+LOGPATH		= /data/app/rspSample/log
+DATAPATH    = /data/app/rspSample/data
+
+# TYPE采集方式（IIC表示通过IIC采集、UART表示通过串口报文采集）
+# YX_SUM 遥信总数（最多支持8）；PULSE_SUM脉冲总数（最多支持8）；YM_SHARE遥信脉冲共享标记（通过命令切换）
+[YM_CONF]
+TYPE         = UART
+YX_SUM       = 0
+PULSE_SUM    = 2
+YM_SHARE     = 1
+
+# 模组管理配置
+# SUPPORT   是否支持模组管理器 0-不支持；1-支持
+# 模组端口数量
+[MAP_CONF]
+SUPPORT      = 1
+PROT_SUM     = 4
+
+# LOGCTRL bitstring(5): 1-enable 0-disable
+# bit |  4  |  3  |  2  |  1  |  0  |
+# -----------------------
+# val |merge|trlog|logcc|debug|trace|
+# merge:日志合并使能，开启后，日志合并输出到{appname}.log文件
+[LOGCTRL_CONF]
+LOGALL     = 0
+LOGMSG     = 0,2,5
+LOGRSP     = 0,2,10

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="参数">
+  <!-- TAG_STRING配置为大端模式, TAG_OCTSTRING配置为小端模式 -->
+  <Item Addr="00008001" Name="终端操作系统" Writable="0" TagType="TAG_STRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="5" ArrValue="LINUX">
+  </Item>
+  <Item Addr="00008002" Name="终端硬件版本" Writable="0" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="6" ArrValue="485630323031">
+  </Item>
+  <Item Addr="00008003" Name="终端ESN" Writable="0" TagType="TAG_STRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="16" ArrValue="1001202502904800">
+  </Item>
+  <Item Addr="00008004" Name="终端ID" Writable="0" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="24" ArrValue="543233313131343031303130323032303034323130303034">
+  </Item>
+  <Item Addr="00008005" Name="终端额定供电电压" Writable="0" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="220.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="220.0">
+  </Item>
+  <Item Addr="00008006" Name="最大遥信量路数" Writable="0" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="8" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="8">
+  </Item>
+  <Item Addr="00008007" Name="最大串口通信端口" Writable="0" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="8" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="8">
+  </Item>
+  <Item Addr="00008010" Name="计量ID" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="11" ArrValue="0102030405060708091011">
+  </Item>
+  <Item Addr="00008011" Name="通道1:APN" Writable="1" TagType="TAG_STRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="APN1">
+  </Item>
+  <Item Addr="00008012" Name="心跳周期t3" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="30" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="2" ArrValue="30">
+  </Item>
+  <Item Addr="00008013" Name="测试帧超时t1" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="20" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="2" ArrValue="20">
+  </Item>
+  <Item Addr="00008014" Name="业务帧超时t2" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="10" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="2" ArrValue="10">
+  </Item>
+  <Item Addr="00008015" Name="通道2:APN" Writable="1" TagType="TAG_STRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="APN2">
+  </Item>
+  <Item Addr="00008019" Name="终端开入量1接入属性" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="00">
+  </Item>
+  <Item Addr="0000801A" Name="终端开入量2接入属性" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="00">
+  </Item>
+  <Item Addr="0000801B" Name="终端开入量3接入属性" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="00">
+  </Item>
+  <Item Addr="0000801C" Name="终端开入量4接入属性" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="00">
+  </Item>
+  <Item Addr="00008020" Name="事件上送模式字 bit0遥信突变 bit1故障事件" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="03">
+  </Item>
+  <Item Addr="00008021" Name="油温越限阈值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="80.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="80.0">
+  </Item>
+  <Item Addr="00008022" Name="油温越限恢复阈值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="60.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="60.0">
+  </Item>
+  <Item Addr="00008023" Name="湿度越限阀值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="80.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="80.0">
+  </Item>
+  <Item Addr="00008024" Name="湿度越限恢复阀值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="60.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="60.0">
+  </Item>
+  <Item Addr="00008025" Name="告警屏蔽字" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="16" ArrValue="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7F">
+  </Item>
+  <Item Addr="00008040" Name="现有任务数" Writable="0" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="43" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008041" Name="任务号1的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008042" Name="任务号2的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008043" Name="任务号3的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008044" Name="任务号4的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008045" Name="任务号5的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008046" Name="任务号6的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008047" Name="任务号7的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008048" Name="任务号8的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008049" Name="任务号9的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000804A" Name="任务号10的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000804B" Name="任务号11的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000804C" Name="任务号12的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000804D" Name="任务号13的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000804E" Name="任务号14的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000804F" Name="任务号15的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008050" Name="任务号16的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008051" Name="任务号17的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008052" Name="任务号18的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008053" Name="任务号19的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008054" Name="任务号20的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008055" Name="任务号21的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008056" Name="任务号22的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008057" Name="任务号23的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008058" Name="任务号24的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008059" Name="任务号25的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000805A" Name="任务号26的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000805B" Name="任务号27的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000805C" Name="任务号28的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000805D" Name="任务号29的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000805E" Name="任务号30的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000805F" Name="任务号31的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008060" Name="任务号32的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008061" Name="任务号33的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008062" Name="任务号34的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008063" Name="任务号35的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008064" Name="任务号36的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008065" Name="任务号37的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008066" Name="任务号38的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008067" Name="任务号39的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008068" Name="任务号40的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008069" Name="任务号41的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000806A" Name="任务号42的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000806B" Name="任务号43的数据格式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000806C" Name="任务有效标记" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="8" ArrValue="0000000000000000">
+  </Item>
+  <Item Addr="0000806D" Name="开关量输入类型" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="01">
+  </Item>
+  <Item Addr="00008080" Name="设备类型1数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008081" Name="设备类型2数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008082" Name="设备类型3数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008083" Name="设备类型4数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008084" Name="设备类型5数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008085" Name="设备类型6数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008086" Name="设备类型7数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008087" Name="设备类型8数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008088" Name="设备类型9数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008089" Name="设备类型10数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000808A" Name="设备类型11数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000808B" Name="设备类型12数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000808C" Name="设备类型13数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000808D" Name="设备类型14数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000808E" Name="设备类型15数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000808F" Name="设备类型16数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008090" Name="设备类型17数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008091" Name="设备类型18数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008092" Name="设备类型19数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008093" Name="设备类型20数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008094" Name="设备类型21数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008095" Name="设备类型22数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008096" Name="设备类型23数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008097" Name="设备类型24数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008098" Name="设备类型25数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008099" Name="设备类型26数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000809A" Name="设备类型27数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000809B" Name="设备类型28数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000809C" Name="设备类型29数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000809D" Name="设备类型30数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000809E" Name="设备类型31数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000809F" Name="设备类型32数据采集周期/分钟" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  
+</Table>

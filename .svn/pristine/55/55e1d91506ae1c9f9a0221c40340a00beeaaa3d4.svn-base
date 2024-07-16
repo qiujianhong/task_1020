@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="遥信">
+  <Item Addr="00100001" Name="终端本地开入量1" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010001">
+  </Item>
+  <Item Addr="00100002" Name="终端本地开入量2" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="1" DealType="00010001">
+  </Item>
+  <Item Addr="00100003" Name="终端本地开入量3" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="2" DealType="00010001">
+  </Item>
+  <Item Addr="00100004" Name="终端本地开入量4" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="3" DealType="00010001">
+  </Item>
+  <Item Addr="00100005" Name="停电" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00000000">
+  </Item>
+  
+</Table>

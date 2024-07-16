@@ -1,0 +1,18 @@
+{
+	"description": "usbManager config file",
+	"devs": [
+		{
+			"name":"COPR",
+			"type": "usb",
+			"enable": 1,
+			"path": "/sys/bus/usb/devices/2-1.6",
+			"add": "add@/devices/platform/ff340000.usb/usb2/2-1/2-1.6",
+			"remove": "remove@/devices/platform/ff340000.usb/usb2/2-1/2-1.6",
+			"link": [
+				"/dev/ttyYK",
+				"/dev/ttyYM",
+				"/dev/ttyCAN0"
+			]
+		}
+	]
+}

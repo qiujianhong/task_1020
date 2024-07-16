@@ -1,0 +1,105 @@
+#!/bin/sh
+
+mkdir /tmp/rcS
+# Start all init scripts in /etc/init.d
+# executing them in numerical order.
+#
+for i in /etc/init.d/S??* ;do
+
+     # Ignore dangling symlinks (if any).
+     [ ! -f "$i" ] && continue
+
+     case "$i" in
+	*.sh)
+	    # Source shell script for speed.
+	    (
+		trap - INT QUIT TSTP
+		set start
+		. $i
+	    )
+	    ;;
+	*)
+	    # No sh extension, so fork subprocess.
+	    $i start
+	    ;;
+    esac
+done
+
+
+ln -s /media/usb0 /tmp/udisk
+mkdir /dev/misc
+ln -s /sys/bus/i2c/devices/2-0050/eeprom /dev/misc/fm24c
+ln -s /dev/rtc0 /dev/misc/rtc8025 
+
+export LD_LIBRARY_PATH=/lib:/usr/lib:/mnt:/mnt/lib:/lib32
+if [ ! -d "/mnt/data" ]; then
+#   cp /usr/local/etc/ssh* /etc/ssh/
+   mkdir -p /mnt/root /mnt/data /mnt/ssh
+fi
+
+mount --bind /mnt/root/ /root
+mount --bind /mnt/data/backup/ /backup
+/usr/bin/sshd
+
+if [ ! -d "/mnt/data/log" ]; then
+    /bin/mkdir /mnt/data/log
+    rm -fr /mnt/data/*.mp4
+   rm -fr /mnt/data/*.png
+fi
+
+if ! [ -L /mnt/log ]; then
+    rm -fr /mnt/log
+    ln -s /mnt/data/log /mnt/log
+fi
+
+
+if [ ! -d "/mnt/data/update" ]; then
+    /bin/mkdir /mnt/data/update
+fi
+if [ ! -d "/mnt/data/backup" ]; then
+    /bin/mkdir /mnt/data/backup
+fi
+if [ ! -d "/mnt/data/oldsoft" ]; then
+    /bin/mkdir /mnt/data/oldsoft
+fi
+
+### if linked, not link agian ###
+if ! [ -L /mnt/update ]; then
+    rm -fr /mnt/update
+    ln -s /mnt/data/update /mnt/update
+fi
+if ! [ -L /mnt/oldsoft ]; then
+    rm -fr /mnt/oldsoft
+    ln -s /mnt/data/oldsoft /mnt/oldsoft
+fi
+
+### loading network driver and setting ip###
+### insmod /usr/local/macb.ko
+ifconfig lo 127.0.0.1
+/usr/sbin/sethwethermac
+ifconfig eth0 192.168.101.66 netmask 255.255.255.0
+
+if test -f "/media/usb0/force_setup"; then
+chmod 777 /media/usb0/*
+/media/usb0/force_setup
+fi
+
+if test -f "/mnt/boot.sh"; then
+###    insmod /mnt/driver/gwjzq_adc.ko
+    /mnt/boot.sh
+elif test -f "/tmp/udisk/setup"; then
+    mkdir /tmp/setup
+    chmod 777 /tmp/udisk/*
+    /tmp/udisk/setup
+elif test -f "/mnt/oldsoft/boot.sh"; then
+    cp /mnt/oldsoft/boot.sh /mnt
+    sync
+else
+    /etc/init.d/check_part
+    watchdogtest
+fi
+ 
+
+#dockerd >/dev/null 2>&1 &
+
+/etc/hook.sh > /tmp/hook.log

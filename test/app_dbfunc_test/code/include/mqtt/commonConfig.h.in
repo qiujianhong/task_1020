@@ -1,0 +1,32 @@
+#ifndef __COMMON_CONFIG_H__
+#define __COMMON_CONFIG_H__
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+//主版本号 由CMAKE指定
+#define common_VERSION_MAJOR @common_VERSION_MAJOR@
+//次版本号 由CMAKE指定
+#define common_VERSION_MINOR @common_VERSION_MINOR@
+// PATCH本号 由CMAKE指定
+#define common_VERSION_PATCH @common_VERSION_PATCH@
+
+#define XL_TIME_TRACE
+
+
+
+#ifdef XL_TIME_TRACE
+
+#define XL_TIME_TRACE_DUMP
+
+
+#endif
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#endif

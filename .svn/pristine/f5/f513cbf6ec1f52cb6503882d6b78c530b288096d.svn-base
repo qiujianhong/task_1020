@@ -1,0 +1,62 @@
+#
+# mapManager.ini
+# 
+[SYS_CONF]
+MESSAGE_BUS         = 0
+ENCRYPTED_STORAGE   = no
+
+# MQTT SERVER CONFIG
+[MQTT_CONF]
+IP 					= 172.17.0.1
+PORT 				= 1883
+DEBUG   			= no
+
+[RPATH_CONF]
+M_PATH 				= /data/app/mapManager/data/main/
+B_PATH 				= /data/app/mapManager/data/bak/
+F_PATH  			= /data/app/mapManager/data/factory/
+
+[DEBUG_CONF]
+LOGPATH     		= /data/app/mapManager/log/
+LOG_ERR	    		= yes
+LOG_RUN     		= yes
+LOG_DBG     		= no
+DEBUG_ITF   		= 4
+
+# USB CHANNEL CONFIG
+[USBFS_NODE_CONF]
+
+CHANNEL1	= /sys/bus/usb/devices/3-1.1
+CHANNEL2	= /sys/bus/usb/devices/3-1.2
+CHANNEL3	= /sys/bus/usb/devices/3-1.3
+CHANNEL4	= /sys/bus/usb/devices/3-1.4
+CHANNEL5	= /sys/bus/usb/devices/3-1.5
+
+# USB CHANNEL CONFIG
+[USBHS_NODE_CONF]
+
+CHANNEL1	= /sys/bus/usb/devices/4-1.1
+CHANNEL2	= /sys/bus/usb/devices/4-1.2
+CHANNEL3	= /sys/bus/usb/devices/4-1.3
+CHANNEL4	= /sys/bus/usb/devices/4-1.4
+CHANNEL5	= /sys/bus/usb/devices/2-1
+
+# USB ROMOVE EVT CONFIG
+[USBFS_EVT_CONF]
+
+CHANNEL1	= remove@/devices/platform/soc/fotg210_hcd.2/usb3/3-1/3-1.1
+CHANNEL2	= remove@/devices/platform/soc/fotg210_hcd.2/usb3/3-1/3-1.2
+CHANNEL3	= remove@/devices/platform/soc/fotg210_hcd.2/usb3/3-1/3-1.3
+CHANNEL4	= remove@/devices/platform/soc/fotg210_hcd.2/usb3/3-1/3-1.4
+CHANNEL5	= remove@/devices/platform/soc/fotg210_hcd.2/usb3/3-1/3-1.5
+
+# USB ROMOVE EVT CONFIG
+[USBHS_EVT_CONF]
+
+CHANNEL1	= remove@/devices/soc/1c1c000.ohci2-controller/usb4/2-1/2-1.1
+CHANNEL2	= remove@/devices/soc/1c1c000.ohci2-controller/usb4/2-1/2-1.2
+CHANNEL3	= remove@/devices/soc/1c1c000.ohci2-controller/usb4/2-1/2-1.3
+CHANNEL4	= remove@/devices/soc/1c1c000.ohci2-controller/usb4/2-1/2-1.4
+CHANNEL5	= remove@/devices/platform/soc/fotg210_hcd.1/usb2/2-1
+
+

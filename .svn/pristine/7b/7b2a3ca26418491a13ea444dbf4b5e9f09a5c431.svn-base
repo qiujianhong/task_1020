@@ -1,0 +1,25 @@
+#
+# ccoRouter.ini
+#
+
+[mqtt]
+MQTTIP = 172.17.0.1
+MQTTPORT = 1883
+
+#FLAG为1代表有模组管理器，2代表没有模组管理器
+[MODULE]
+FLAG = 1
+
+# LOGCTRL bitstring(5): 1-enable 0-disable
+# bit |  4  |  3  |  2  |  1  |  0  |
+# -----------------------
+# val |merge|trlog|logcc|debug|trace|
+# merge:日志合并使能，开启后，日志合并输出到{appname}.log文件中
+# trlog:trace类型写日志使能 logcc:logcc类型写日志使能 debug:debug类型打印使能 trace:trace类型打印使能
+[LOGCTRL_CONF]
+LOGCCOUP          = 8,2,10
+LOGCCODOWN        = 8,2,10
+LOGCCOGUI         = 8,2,10
+
+[FILEPATH_CONF]
+LOGPATH		= /data/app/ccoRouter/log

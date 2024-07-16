@@ -1,0 +1,5 @@
+1.在\release\upgrade\package_upgrade目录中放入待升级的APP包, APP包从release\apps目录中取
+
+2.在\release\upgrade目录执行tar -zcvf upgrade.tar.gz package_upgrade/ 打包形成升级包。
+
+3.将upgrade.tar.gz传到主站进行远程升级。

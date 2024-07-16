@@ -1,0 +1,75 @@
+【介绍】调试信息是程序运行过程中指写入日志文件和显示于控制台的信息
+
+【分类】调试信息分为3类：
+        1. TRACE: 用于跟踪执行过程，默认不写日志
+        2. DEBUG: 用于记录异常信息，默认输出到日志文件
+        3. LOGCC: 用于记录提示信息，默认不写日志
+
+【控制】调试信息输出方式和日志的输出路径，通过每个APP配置文件控制。每个APP内部的日志可能划分了多个模块，不同模块的调试信息输出可独立控制。
+        在APP的ini配置文件中，[FILEPATH_CONF]:LOGPATH 指定了日志文件的路径。
+        
+        在APP的ini配置文件中，[LOGCTRL_CONF] 描述了调试信息控制字，搜索LOGCTRL_CONF关键字，可以看到以下格式。
+        [LOGCTRL_CONF]
+        LOGALL         = {digit}   
+        LOG{module}    = {digit}
+        
+        {module}是每个模块的名称，其中LOGALL的配置适用于该APP所有的{module}, LOGALL与LOG{module}的配置是“或”的关系
+        
+        {digit}的取值由下面的比特串定义：        
+        LOGCTRL bitstring(5): val = 1-enable 0-disable
+        bit |  4  |  3  |  2  |  1  |  0  |
+        -----------------------------------
+        val |merge|trlog|logcc|debug|trace|
+
+        merge:日志合并输出到{appname}.log文件中
+        trlog:将TRACE类型调试信息写入日志文件
+        logcc:将LOGCC类型调试信息写入日志文件 
+        debug:将DEBUG和LOGCC类型调试信息输出到控制台 
+        trace:将TRACE类型调试信息输出到控制台
+
+【举例】某名为demo的app中有A,B,C三个模块，[LOGCTRL_CONF]默认内容如下：这个状态只会将DEBUG类型的调试信息写入日志文件
+        [LOGCTRL_CONF]
+        LOGALL  = 0  
+        LOGA    = 0
+        LOGB    = 0
+        LOGC    = 0
+        
+        若将A模块的TRACE和LOGCC类型调试信息写入日志，根据比特串定义，应将trlog和logcc两个比特置1，
+        所以，配置 LOGA = 12
+        
+        若将A,B模块的日志合并到demo.log中，根据比特串定义，应将A和B模块的merge比特置1，注意A已经置位了trlog和logcc，
+        所以，配置 LOGA = 28, LOGB = 16
+        
+        若将C模块的TRACE，DEBUG和LOGCC类型日志输出到控制台，根据比特串定义，应将C模块的debug和trace两个比特置1，
+        所以，配置 LOGC = 3
+        
+【日志】日志文件统一存储在/data/app/{appname}/log目录下，日志文件以{module}.log命名，单个文件最大10M，超过10M后，会被压缩，
+        压缩包存储在当前目录的{module}log文件夹下，压缩包命名为{module}.log.sub_{id}.tar.gz，其中{id}从0~30编号。压缩包内
+        的日志要比单个文件中的早，编号越小的压缩包，日志越早，如果编号0的日志比编号1的新，说明压缩包存储已达上限，重新从0开始编号。
+       
+【调试说明】
+
+【本地通信APP】
+		源码配置文件：/app_base_ccoRouter/config/ccoRouter.ini
+		终端日志路径：/data/app/ccoRouter/log/
+		终端配置文件: baseContainer:/usr/local/extapps/ccoRouter/bin/
+		[LOGCTRL_CONF]
+		LOGCCOUP      = 0/2 (debug:可用, 用于记录本地通信app的所有对外mqtt消息及解析, 文件名cco_up; 其他不可用)
+		LOGCCODOWN    = 0/2 (debug:可用, 用于记录本地通信app的所有对下串口通信交互, 文件名cco_down_序号; 其他不可用)
+		
+【高级用采APP】
+		源码配置文件：/app_adv_yc/config/advPuAmr.ini
+		终端日志路径：/data/app/advPuAmr/log/
+		终端配置文件: advPuAmrContainer:/usr/local/extapps/advPuAmr/bin/
+		[LOGCTRL_CONF]
+		LOGACCOMM     = 0/1/4/8 (trace/trlog:可用, 用于记录交采模块的串口通信报文, 文件名默认; logcc:可用, 用于记录串口通信报文的解析, 一般不用; 其他不可用)
+		LOGACDB       = 0/1/8   (trace/trlog:可用, 用于记录交采模块的数据中心读写结果, 文件名默认; 其他不可用)
+
+【高级配网APP】
+		源码配置文件：/app_adv_PdAmr/config/advPdAmr.ini
+		终端日志路径：/data/app/advPdAmr/log/
+		终端配置文件: advPdAmrContainer:/usr/local/extapps/advPdAmr/bin/
+		[LOGCTRL_CONF]
+		LOGFRAME104   = 0/1/8 (trace/trlog:可用, 用于记录与主站之间交互的104协议报文, 接收与上报, 文件名默认; 其他不可用)
+		LOGDB104      = 0/1/8 (trace/trlog:可用, 用于记录与数据中心之间的读写交互, 遥信/遥测/电量等原始数据的来源, 文件名默认; 其他不可用)	
+ 

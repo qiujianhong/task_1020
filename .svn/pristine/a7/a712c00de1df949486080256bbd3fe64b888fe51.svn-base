@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="遥信">
+  <Item Addr="0001" Name="第1路硬遥信" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010001">
+  </Item>
+  <Item Addr="0002" Name="第2路硬遥信" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="1" DealType="00010001">
+  </Item>
+  <Item Addr="0003" Name="第3路硬遥信" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="2" DealType="00010001">
+  </Item>
+  <Item Addr="0004" Name="第4路硬遥信" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="3" DealType="00010001">
+  </Item>
+  <Item Addr="0005" Name="总进线A相电压越下限" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010002">
+  </Item>
+  <Item Addr="0006" Name="总进线B相电压越下限" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="1" DealType="00010002">
+  </Item>
+  <Item Addr="0007" Name="总进线C相电压越下限" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="2" DealType="00010002">
+  </Item>
+  <Item Addr="0008" Name="总进线A相电压越上限" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010003">
+  </Item>
+  <Item Addr="0009" Name="总进线B相电压越上限" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="1" DealType="00010003">
+  </Item>
+  <Item Addr="000A" Name="总进线C相电压越上限" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="2" DealType="00010003">
+  </Item>
+  <Item Addr="000B" Name="断相" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010004">
+  </Item>
+  <Item Addr="000C" Name="失压" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010005">
+  </Item>
+  <Item Addr="000D" Name="停电" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010006">
+  </Item>
+  <Item Addr="000E" Name="变压器电流三相不平衡" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010007">
+  </Item>
+  <Item Addr="000F" Name="变压器电压三相不平衡" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010008">
+  </Item>
+  <Item Addr="0010" Name="变压器过载" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="00010009">
+  </Item>
+  <Item Addr="0011" Name="变压器重载" Type="M_SP_NA_1" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" DealType="0001000A">
+  </Item>
+</Table>

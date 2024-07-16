@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="参数">
+  <Item Addr="00008001" Name="设备状态" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="1" ArrValue="01">
+  </Item>
+  <Item Addr="00008003" Name="设备地址" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="6" ArrValue="000000000080">
+  </Item>
+  <Item Addr="00008004" Name="端口类型" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="1" ArrValue="01">
+  </Item>
+  <Item Addr="00008005" Name="RS-485端口波特率" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="04010800">
+  </Item>
+  <Item Addr="00008006" Name="通信协议" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="251" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="00">
+  </Item>
+  <Item Addr="00008007" Name="数据采集周期" Writable="1" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008008" Name="网络地址" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="16" ArrValue="01020304050607080910111213141516">
+  </Item>
+  <Item Addr="00008010" Name="电容器设备类型" Writable="0" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="00">
+  </Item>
+  <Item Addr="00008011" Name="额定电压" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="220.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008012" Name="额定容量1" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008013" Name="额定容量2" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008014" Name="额定容量3" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  
+</Table>

@@ -1,0 +1,51 @@
+编译说明
+
+按键说明：
+	上下左右：在pc机上分别为wsqe	用上下左右箭头亦可
+	确认、取消：pc机上分别为da	或回车确认 esc取消
+
+	PHONE_KEY：pc机上为p	终端上为取消、左键(按住取消、再按左键)
+	RD_METER_KEY：pc机上为m	终端上为取消、右键(按住取消、再按右键)
+	
+	添加轮显页面：pc机上为m	终端上为确认、上键(按住确认、再按上键)
+	消音按键：    pc机上为m	终端上为任意按键
+
+	开始升级---停止升级：
+	pc机上为b开始升级 n停止升级
+	终端上为 按住取消、上组合键则开始升级，松开任一按键停止升级(即升级期间需一直按住组合键)
+
+1、当前版本(GUI目录下)可以同时作为pc版和arm版本的编译，分别为：
+需要区分04、浙江版，在mem.h中修改define以后编译(PC版可在终端中打印出、arm版可通过telnet等看出结果)
+make clean:清除
+make:编译pc版
+make arm:编译arm版
+	/usr/local/arm/3.3.2/bin路径应该加入到环境变量中
+	或执行：export PATH=/usr/local/arm/3.3.2/bin:$PATH
+
+
+2、编译条件
+pc版：	安装minigui(libminigui-str-1.6.2.tar.gz文件 ./configure, make, make install )
+	更新minigui的资源(minigui-res-str-1.6.tar.gz文件 make install)
+	修改/usr/local/etc/MiniGUI.cfg文件(可用cvs中的文件替换)
+	修改/etc/ld.so.conf文件(加入/usr/local/lib,后调用ldconfig命令更新)
+	复制qvfb文件到任意地方
+
+arm版：	安装arm gcc(cross-3.3.2.tar.gz,解压后复制到/usr/local/arm中，路径为/usr/local/arm/3.3.2/)
+	安装minigui(libminigui-str-1.6.2.tar.gz文件 ./setup.sh, make, make install)
+	因为该版本不能再pc上运行，资源等操作可以不执行
+
+3、需要的库
+libipc.a:该库放在当前gui目录下，分别为libipc.a(pc版)、libipc_arm.a(arm版)，有可能不为最新版
+libMemManager.so:
+	pc版放到/usr/local/lib目录中
+	arm版放到/mnt/lib目录中
+
+4、运行：
+	将fkga42、fkgaconfig.xml两文件/mnt路径下即可执行
+	将icons目录以及所有图标复制到/mnt下，生成/mnt/icons目录
+
+	pc版运行于qvfb之上，所以需先运行qvfb并修改配置	自定义大小160*160 颜色16位
+
+5、问题：
+	arm版的minigui环境没有说明,请参看郑红的终端安装说明
+	没有平台方面的安装(有可能会出现找不到的libMemManager的错误)，请参看有关平台安装说明

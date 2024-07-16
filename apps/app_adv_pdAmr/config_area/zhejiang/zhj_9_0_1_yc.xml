@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="遥测">
+
+	<!-- 第一部分 不带时标遥测数据信息表(00xxxx) -->
+	<!-- 备注:信息点号InfoNum为两字节公共地址的十进制 -->
+	
+	<Item Addr="00000001" Name="A相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20000200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000002" Name="B相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="1" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20000200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000003" Name="C相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="2" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20000200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000004" Name="A相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20010200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000005" Name="B相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="1" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20010200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000006" Name="C相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="2" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20010200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000007" Name="A相有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="1" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20040200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000008" Name="B相有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="2" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20040200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000009" Name="C相有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="3" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20040200" />
+	</SubItem>
+	</Item>
+	<Item Addr="0000000A" Name="总有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20040200" />
+	</SubItem>
+	</Item>
+	<Item Addr="0000000B" Name="A相功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="1" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="200A0200" />
+	</SubItem>
+	</Item>
+	<Item Addr="0000000C" Name="B相功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="2" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="200A0200" />
+	</SubItem>
+	</Item>
+	<Item Addr="0000000D" Name="C相功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="3" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="200A0200" />
+	</SubItem>
+	</Item>
+	<Item Addr="0000000E" Name="总功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="200A0200" />
+	</SubItem>
+	</Item>
+	<Item Addr="0000000F" Name="电网频率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="200F0200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000010" Name="表内温度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="FFFFFFFF" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000011" Name="当前剩余电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="20010500" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000012" Name="运行时间" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0206" />
+	</SubItem>
+	</Item>
+	<Item Addr="00000013" Name="额定剩余电流动作值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0207" />
+	</SubItem>
+	</Item>
+	
+	<!-- 第二部分 变长比特串(02xxxx) -->
+	<Item Addr="00020001" Name="当前剩余电流最大相" Type="M_VBO_TB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="1">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0201" />
+	</SubItem>
+	</Item>
+	<Item Addr="00020002" Name="故障识别" Type="M_VBO_TB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="1">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0202" />
+	</SubItem>
+	</Item>
+	<Item Addr="00020003" Name="运行状态字" Type="M_VBO_TB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="1">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0203" />
+	</SubItem>
+	</Item>
+	<Item Addr="00020004" Name="控制字" Type="M_VBO_TB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="5">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0204" />
+	</SubItem>
+	</Item>
+	<Item Addr="00020005" Name="额定剩余电流动作值参数组" Type="M_VBO_TB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="20">
+	<SubItem> 
+  	<SubOAD SubOAD="201F0205" />
+	</SubItem>
+	</Item>
+	
+	<!-- 第三部分 电能量数据信息表(20xxxx) -->
+	
+	<Item Addr="00200001" Name="正向有功总电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="00100200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00200002" Name="反向有功总电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="00200200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00200003" Name="正向无功总电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="00300200" />
+	</SubItem>
+	</Item>
+	<Item Addr="00200004" Name="反向无功总电能" Type="M_IT_NB_1" ReportRatio="0" DealZoneAddr="FFFFFFFF" DealZoneValue="10.0" LogicId="7" InfoNum="18433" MainOAD="00000000" OadColsNum="1" Index="0" FullValue="32768" DealType="00000000" ArrLen="0">
+	<SubItem> 
+  	<SubOAD SubOAD="00400200" />
+	</SubItem>
+	</Item>
+	
+	
+	
+</Table>

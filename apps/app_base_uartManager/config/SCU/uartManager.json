@@ -1,0 +1,27 @@
+{
+	"UART_CFG":	[{
+			"name":	"COMM-1",
+			"port":	"/dev/ttyRS0",
+			"mode":	"master"
+		}, {
+			"name":	"COMM-2",
+			"port":	"/dev/ttyRS1",
+			"mode":	"master"
+		}, {
+			"name":	"COMM-3",
+			"port":	"/dev/ttyRS2",
+			"mode":	"master"
+		}, {
+			"name":	"COMM-4",
+			"port":	"/dev/ttyRS3",
+			"mode":	"slave",
+			"param":	{
+				"baudRate":	9600,
+				"byteSize":	8,
+				"parity":	"even",
+				"stopBits":	1
+			},
+			"appList":	[
+	        ]
+		}]
+}

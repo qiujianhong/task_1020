@@ -1,0 +1,5 @@
+#!/bin/sh
+
+if [ -e /var/run/smiOS.pid ]; then
+    /usr/sbin/service smiOS stop
+fi

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="遥测">
+	<Item Addr="4001" Name="A相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8021" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20000200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4002" Name="B相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8021" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20000200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4003" Name="C相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8021" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20000200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4004" Name="零序相电压" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8021" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20000400" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4005" Name="A相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8020" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20010200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4006" Name="B相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8020" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20010200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4007" Name="C相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8020" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20010200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4008" Name="零序相电流" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8020" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20010400" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4009" Name="电网相角" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8020" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="400A" Name="电网频率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8024" DealZoneValue="0.005" LogicId="1" InfoNum="0" MainOAD="200F0200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="400B" Name="总有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20040200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="400C" Name="总无功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20050200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="400D" Name="总功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8025" DealZoneValue="0.02" LogicId="1" InfoNum="0" MainOAD="200A0200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="400E" Name="总视在功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20060200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="400F" Name="A相有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20040200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4010" Name="B相有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20040200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4011" Name="C相有功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20040200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4012" Name="A相无功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20050200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4013" Name="B相无功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20050200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4014" Name="C相无功功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20050200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4015" Name="A相功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8025" DealZoneValue="0.02" LogicId="1" InfoNum="0" MainOAD="200A0200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4016" Name="B相功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8025" DealZoneValue="0.02" LogicId="1" InfoNum="0" MainOAD="200A0200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4017" Name="C相功率因数" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8025" DealZoneValue="0.02" LogicId="1" InfoNum="0" MainOAD="200A0200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4018" Name="A相视在功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20060200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4019" Name="B相视在功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20060200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="401A" Name="C相视在功率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8023" DealZoneValue="0.05" LogicId="1" InfoNum="0" MainOAD="20060200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="401B" Name="三相电压不平衡度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8407" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20260200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="401C" Name="三相电流不平衡度" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8407" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20270200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="401D" Name="A相电压偏差" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="4" Index="0" FullValue="32768" DealType="40010001">
+	<SubItem> 
+  	<SubOAD SubOAD="40010000" />
+	<SubOAD SubOAD="0000400E" />
+	<SubOAD SubOAD="80010000" />
+	<SubOAD SubOAD="00008401" />
+	</SubItem>
+	</Item>
+	<Item Addr="401E" Name="B相电压偏差" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="4" Index="0" FullValue="32768" DealType="40010002">
+	<SubItem> 
+  	<SubOAD SubOAD="40010000" />
+	<SubOAD SubOAD="00004002" />
+	<SubOAD SubOAD="80010000" />
+	<SubOAD SubOAD="00008207" />
+	</SubItem>
+	</Item>
+	<Item Addr="401F" Name="C相电压偏差" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="4" Index="0" FullValue="32768" DealType="40010003">
+	<SubItem> 
+  	<SubOAD SubOAD="40010000" />
+	<SubOAD SubOAD="00004003" />
+	<SubOAD SubOAD="80010000" />
+	<SubOAD SubOAD="00008207" />
+	</SubItem>
+	</Item>
+	<Item Addr="4020" Name="频率偏差" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="FFFF" DealZoneValue="0" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="2" Index="0" FullValue="32768" DealType="40010004">
+	<SubItem> 
+  	<SubOAD SubOAD="40010000" />
+	<SubOAD SubOAD="0000400A" />
+	</SubItem>
+	</Item>
+	<Item Addr="4021" Name="A相2次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4022" Name="A相3次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4023" Name="A相4次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4024" Name="A相5次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4025" Name="A相6次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4026" Name="A相7次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4027" Name="A相8次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4028" Name="A相9次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4029" Name="A相10次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="402A" Name="A相11次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="402B" Name="A相12次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="402C" Name="A相13次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="402D" Name="A相14次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="402E" Name="A相15次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="402F" Name="A相16次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4030" Name="A相17次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4031" Name="A相18次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4032" Name="A相19次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4033" Name="A相20次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4034" Name="A相21次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="20" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4035" Name="B相2次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4036" Name="B相3次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4037" Name="B相4次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4038" Name="B相5次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4039" Name="B相6次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="403A" Name="B相7次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="403B" Name="B相8次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="403C" Name="B相9次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="403D" Name="B相10次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="403E" Name="B相11次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="403F" Name="B相12次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4040" Name="B相13次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4041" Name="B相14次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4042" Name="B相15次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4043" Name="B相16次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4044" Name="B相17次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4045" Name="B相18次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4046" Name="B相19次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4047" Name="B相20次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4048" Name="B相21次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="20" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4049" Name="C相2次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="404A" Name="C相3次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="404B" Name="C相4次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="404C" Name="C相5次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="404D" Name="C相6次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="404E" Name="C相7次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="404F" Name="C相8次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4050" Name="C相9次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4051" Name="C相10次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4052" Name="C相11次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4053" Name="C相12次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4054" Name="C相13次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4055" Name="C相14次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4056" Name="C相15次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4057" Name="C相16次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4058" Name="C相17次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4059" Name="C相18次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="405A" Name="C相19次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="405B" Name="C相20次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="405C" Name="C相21次电压谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="20" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="405D" Name="A相2次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="405E" Name="A相3次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="405F" Name="A相4次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4060" Name="A相5次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4061" Name="A相6次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4062" Name="A相7次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4063" Name="A相8次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4064" Name="A相9次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4065" Name="A相10次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4066" Name="A相11次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4067" Name="A相12次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4068" Name="A相13次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4069" Name="A相14次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="406A" Name="A相15次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="406B" Name="A相16次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="406C" Name="A相17次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="406D" Name="A相18次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="406E" Name="A相19次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="406F" Name="A相20次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4070" Name="A相21次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330200" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4071" Name="B相2次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4072" Name="B相3次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4073" Name="B相4次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4074" Name="B相5次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4075" Name="B相6次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4076" Name="B相7次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4077" Name="B相8次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4078" Name="B相9次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4079" Name="B相10次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="407A" Name="B相11次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="407B" Name="B相12次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="407C" Name="B相13次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="407D" Name="B相14次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="407E" Name="B相15次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="407F" Name="B相16次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4080" Name="B相17次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4081" Name="B相18次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4082" Name="B相19次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4083" Name="B相20次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4084" Name="B相21次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330300" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4085" Name="C相2次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4086" Name="C相3次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4087" Name="C相4次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4088" Name="C相5次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4089" Name="C相6次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="408A" Name="C相7次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="408B" Name="C相8次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="408C" Name="C相9次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="408D" Name="C相10次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="408E" Name="C相11次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="408F" Name="C相12次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4090" Name="C相13次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4091" Name="C相14次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4092" Name="C相15次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4093" Name="C相16次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4094" Name="C相17次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4095" Name="C相18次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4096" Name="C相19次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4097" Name="C相20次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4098" Name="C相21次电压谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20330400" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4099" Name="A相2次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="409A" Name="A相3次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="409B" Name="A相4次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="409C" Name="A相5次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="409D" Name="A相6次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="409E" Name="A相7次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="409F" Name="A相8次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A0" Name="A相9次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A1" Name="A相10次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A2" Name="A相11次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A3" Name="A相12次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A4" Name="A相13次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A5" Name="A相14次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A6" Name="A相15次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A7" Name="A相16次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A8" Name="A相17次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40A9" Name="A相18次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40AA" Name="A相19次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40AB" Name="A相20次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40AC" Name="A相21次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="20" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40AD" Name="B相2次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40AE" Name="B相3次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40AF" Name="B相4次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B0" Name="B相5次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B1" Name="B相6次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B2" Name="B相7次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B3" Name="B相8次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B4" Name="B相9次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B5" Name="B相10次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B6" Name="B相11次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B7" Name="B相12次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B8" Name="B相13次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40B9" Name="B相14次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40BA" Name="B相15次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40BB" Name="B相16次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40BC" Name="B相17次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40BD" Name="B相18次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40BE" Name="B相19次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40BF" Name="B相20次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C0" Name="B相21次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="20" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C1" Name="C相2次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C2" Name="C相3次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C3" Name="C相4次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C4" Name="C相5次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C5" Name="C相6次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C6" Name="C相7次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C7" Name="C相8次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C8" Name="C相9次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40C9" Name="C相10次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40CA" Name="C相11次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40CB" Name="C相12次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40CC" Name="C相13次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40CD" Name="C相14次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40CE" Name="C相15次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40CF" Name="C相16次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D0" Name="C相17次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D1" Name="C相18次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D2" Name="C相19次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D3" Name="C相20次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D4" Name="C相21次电流谐波含有率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="20" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D5" Name="A相2次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D6" Name="A相3次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D7" Name="A相4次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D8" Name="A相5次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40D9" Name="A相6次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40DA" Name="A相7次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40DB" Name="A相8次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40DC" Name="A相9次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40DD" Name="A相10次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40DE" Name="A相11次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40DF" Name="A相12次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E0" Name="A相13次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E1" Name="A相14次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E2" Name="A相15次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E3" Name="A相16次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E4" Name="A相17次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E5" Name="A相18次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E6" Name="A相19次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E7" Name="A相20次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E8" Name="A相21次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340200" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40E9" Name="B相2次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40EA" Name="B相3次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40EB" Name="B相4次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40EC" Name="B相5次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40ED" Name="B相6次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40EE" Name="B相7次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40EF" Name="B相8次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F0" Name="B相9次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F1" Name="B相10次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F2" Name="B相11次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F3" Name="B相12次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F4" Name="B相13次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F5" Name="B相14次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F6" Name="B相15次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F7" Name="B相16次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F8" Name="B相17次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40F9" Name="B相18次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40FA" Name="B相19次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40FB" Name="B相20次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40FC" Name="B相21次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340300" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40FD" Name="C相2次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40FE" Name="C相3次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="1" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="40FF" Name="C相4次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="2" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4100" Name="C相5次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="3" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4101" Name="C相6次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="4" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4102" Name="C相7次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="5" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4103" Name="C相8次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="6" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4104" Name="C相9次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="7" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4105" Name="C相10次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="8" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4106" Name="C相11次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="9" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4107" Name="C相12次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="10" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4108" Name="C相13次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="11" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4109" Name="C相14次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="12" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="410A" Name="C相15次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="13" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="410B" Name="C相16次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="14" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="410C" Name="C相17次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="15" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="410D" Name="C相18次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="16" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="410E" Name="C相19次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="17" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="410F" Name="C相20次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="18" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4110" Name="C相21次电流谐波有效值" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="20340400" OadColsNum="0" Index="19" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4111" Name="A相电压畸变率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4112" Name="B相电压畸变率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0300" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4113" Name="C相电压畸变率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8405" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200D0400" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4114" Name="A相电流畸变率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0200" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4115" Name="B相电流畸变率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0300" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4116" Name="C相电流畸变率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8406" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="200E0400" OadColsNum="0" Index="0" FullValue="32768" DealType="00000000">
+	</Item>
+	<Item Addr="4117" Name="配变负载率" Type="M_ME_NC_1" ReportRatio="0" DealZoneAddr="8408" DealZoneValue="0.01" LogicId="1" InfoNum="0" MainOAD="FFFFFFFF" OadColsNum="4" Index="0" FullValue="32768" DealType="40010005">
+	<SubItem> 
+  	<SubOAD SubOAD="40010000" />
+	<SubOAD SubOAD="00004001" />
+	<SubOAD SubOAD="80010000" />
+	<SubOAD SubOAD="00008207" />
+	</SubItem>
+	</Item>
+	
+	
+</Table>

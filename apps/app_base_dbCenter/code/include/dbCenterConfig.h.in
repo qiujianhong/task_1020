@@ -1,0 +1,30 @@
+#ifndef __DB_CENTER_CONFIG_H__
+#define __DB_CENTER_CONFIG_H__
+
+#ifdef __cplusplus
+extern "C"
+{
+
+#endif
+//主版本号 由CMAKE指定
+#define dbCenter_VERSION_MAJOR @dbCenter_VERSION_MAJOR@
+//次版本号 由CMAKE指定
+#define dbCenter_VERSION_MINOR @dbCenter_VERSION_MINOR@
+// PATCH版本号 由CMAKE指定
+#define dbCenter_VERSION_PATCH @dbCenter_VERSION_PATCH@
+// SVN版本号 由CMAKE构建时从SVN自动获取
+#define dbCenter_VERSION_SVN  @dbCenter_VERSION_SVN@
+
+//定义该宏编译时输出MSG头部信息
+#define MSG_HEADER_DEBUG
+
+//定义该宏输出配置文件信息
+#define GLOBAL_CONFIG_DUMP
+
+#define ENABLE_OLOG
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

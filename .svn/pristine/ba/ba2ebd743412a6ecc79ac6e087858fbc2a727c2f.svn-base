@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="故障">
+  <Item Addr="00000101" Name="终端停电(发生 恢复+0x80)" Type="M_FT_NA_ZHJ_1" EquipType="1" FaultYxAddr="00100005" ReportNum="16" YxNum="0" YcNum="2" YcTiNum="0" EnNum="14" StrNum="0" ParaNum="0" MainOAD="FFFFFFFF" Index="0" DataSrc="2">
+  <SubItem> 
+  	<SubOAD ReportAddr="00010010" />
+  	<SubOAD ReportAddr="00010015" />
+  	<SubOAD ReportAddr="00200001" />
+	<SubOAD ReportAddr="00200002" />
+	<SubOAD ReportAddr="00200003" />
+	<SubOAD ReportAddr="00200004" />
+	<SubOAD ReportAddr="00200005" />
+	<SubOAD ReportAddr="00200006" />
+	<SubOAD ReportAddr="00200007" />
+	<SubOAD ReportAddr="00200008" />
+	<SubOAD ReportAddr="00200009" />
+	<SubOAD ReportAddr="0020000A" />
+	<SubOAD ReportAddr="00200015" />
+	<SubOAD ReportAddr="0020001A" />
+	<SubOAD ReportAddr="0020001F" />
+	<SubOAD ReportAddr="00200024" />
+  </SubItem>
+  </Item>
+  
+</Table>

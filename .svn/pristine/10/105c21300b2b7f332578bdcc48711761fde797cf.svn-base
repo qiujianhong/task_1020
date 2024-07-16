@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app_list>
+
+  <app name="smiOS">
+	<locate>host</locate>
+  </app> 
+  
+  <app name="usbManager">
+	<locate>host</locate>
+  </app>
+  
+  <app name="wirelessDCM">
+	<locate>host</locate>
+  </app>
+  
+  <app name="uartManager">
+	<locate>host</locate>
+  </app> 
+  
+  <app name="desktopGui">
+	<locate>host</locate>
+  </app>  
+  
+  <app name="acMeter">
+	<locate>host</locate>
+  </app> 
+
+  <app name="scsMonitor">
+	<locate>host</locate>
+  </app> 
+
+  <app name="rspSample">
+	<locate>host</locate>
+  </app> 
+
+  <app name="btManager">
+	<locate>host</locate>
+  </app> 
+
+  <app name="iotManager">
+	<locate>host</locate>
+  </app> 
+
+  <app name="mapManager">
+	<locate>host</locate>
+  </app>
+  
+  <app name="dbCenter">
+	<locate>baseContainer</locate>
+  </app>  
+  
+  <app name="ccoRouter">
+	<locate>baseContainer</locate>
+  </app>  
+  
+  <app name="taskManager">
+	<locate>edgerContainer</locate>
+  </app>  
+  
+  <app name="lcMonitor">
+	<locate>edgerContainer</locate>
+  </app> 
+   
+  <app name="puAmr">
+	<locate>amrContainer</locate>
+  </app> 
+  
+  <app name="stAmr">
+	<locate>amrContainer</locate>
+  </app>  
+
+  <app name="pdsManager">
+	<locate>amrContainer</locate>
+  </app>
+
+  <app name="pqAnalyzer">
+	<locate>amrContainer</locate>
+  </app>
+  
+  <app name="demAmr">
+	<locate>amrContainer</locate>
+  </app>  
+  
+  <white_list>
+	<app_name>smiOS</app_name>
+	<app_name>usbManager</app_name>
+	<app_name>desktopGui</app_name>
+	<app_name>dbCenter</app_name>
+	<app_name>ccoRouter</app_name>
+	<app_name>acMeter</app_name>
+	<app_name>mapManager</app_name>
+	<app_name>uartManager</app_name>
+	<app_name>wirelessDCM</app_name>
+	<app_name>scsMonitor</app_name>
+	<app_name>rspSample</app_name>
+	<app_name>btManager</app_name>
+	<app_name>iotManager</app_name>
+	<app_name>taskManager</app_name>
+	<app_name>puAmr</app_name>
+	<app_name>stAmr</app_name>
+	<app_name>pdsManager</app_name>
+	<app_name>pqAnalyzer</app_name>	
+	<app_name>lcMonitor</app_name>	
+	<app_name>demAmr</app_name>
+  </white_list>
+
+</app_list>

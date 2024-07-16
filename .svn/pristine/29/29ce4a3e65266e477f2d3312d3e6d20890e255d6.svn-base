@@ -1,0 +1,25 @@
+#
+# btManager.ini
+# 
+
+# MQTT服务端配置
+[MQTT_CONF]
+IP      = 172.17.0.1
+PORT    = 1883
+
+# OTHER SYS CONFIG
+[FILEPATH_CONF]
+LOGPATH	 = /data/app/btManager/log
+DATAPATH = /data/app/btManager/cfg
+
+# LOGCTRL bitstring(5): 1-enable 0-disable
+# bit |  4  |  3  |  2  |  1  |  0  |
+# -----------------------
+# val |merge|trlog|logcc|debug|trace|
+# merge:日志合并使能，开启后，日志合并输出到{appname}.log文件中
+# trlog:trace类型写日志使能 logcc:logcc类型写日志使能 debug:debug类型打印使能 trace:trace类型打印使能
+[LOGCTRL_CONF]
+LOGALL         = 0   
+LOGMSG         = 15,2,5
+LOGBLE         = 15,4,20
+LOGTESAM       = 15,2,10

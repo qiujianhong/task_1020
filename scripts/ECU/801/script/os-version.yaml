@@ -1,0 +1,10 @@
+# OS name
+name: Linux
+
+# OS version
+softVersion: OS1.0
+
+# OS patch version
+# format: original, not patched
+#         SV02.000.001, patched version 001 on SV02.000
+patchVersion: OS1.0.001

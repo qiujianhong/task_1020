@@ -1,0 +1,55 @@
+{
+	"UART_CFG":	[{
+			"name":	"COMM-1",
+			"port":	"/dev/ttyRS0",
+			"mode":	"master",
+			"param":	{
+				"baudRate":	9600,
+				"byteSize":	8,
+				"parity":	"even",
+				"stopBits":	1
+			},
+			"onlyApp":  "",
+			"appList":	[
+	        ]
+		}, {
+			"name":	"COMM-2",
+			"port":	"/dev/ttyRS3",
+			"mode":	"slave",
+			"param":	{
+				"baudRate":	9600,
+				"byteSize":	8,
+				"parity":	"even",
+				"stopBits":	1
+			},
+		    "onlyApp":  "",
+			"appList":	[
+	        ]
+		},{
+			"name":	"COMM-3",
+			"port":	"/dev/ttyCAN0",
+			"mode":	"master",
+			"param":	{
+				"baudRate":	500000,
+				"byteSize":	8,
+				"parity":	"even",
+				"stopBits":	1
+			},
+		    "onlyApp":  "",
+			"appList":	[
+	        ]
+		},{
+			"name":	"COMM-4",
+			"port":	"/dev/ttyCAN1",
+			"mode":	"master",
+			"param":	{
+				"baudRate":	500000,
+				"byteSize":	8,
+				"parity":	"even",
+				"stopBits":	1
+			},
+		    "onlyApp":  "",
+			"appList":	[
+	        ]
+		}]
+}

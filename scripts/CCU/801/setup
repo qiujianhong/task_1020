@@ -1,0 +1,17 @@
+#!/bin/bash
+CURDIR=$(cd $(dirname $0) && pwd )
+echo $CURDIR
+cd $CURDIR
+rm -rf /tmp/updateApps
+mkdir -p /tmp/updateApps
+cp -rf lcdctrl /tmp/
+cp -rf lcdctrl /tmp/updateApps/
+cp -rf liccheck /tmp/updateApps/
+cp -rf md5.txt /tmp/updateApps/
+cp -rf applic.csv /tmp/updateApps/
+cp -rf setup.sh /tmp/updateApps/
+cp -rf package_801* /tmp/updateApps/
+chmod 755 -R /tmp/updateApps/
+chmod 755 /tmp/lcdctrl
+/tmp/updateApps/setup.sh > /tmp/install.log 
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<FKGA Width="160" Height="160" LightonTime="20" TrunDispTime="60" Template="16777215" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+	<Menus>
+		<Menu Name="应用信息查看" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="模组1信息">
+				<Plugin Id="10485776" HexId="0x00A00010"/>
+			</Menu>
+			<Menu Name="模组2信息">
+				<Plugin Id="10485792" HexId="0x00A00020"/>
+			</Menu>
+			<Menu Name="模组3信息">
+				<Plugin Id="10485808" HexId="0x00A00030"/>
+			</Menu>
+			<Menu Name="模组4信息">
+				<Plugin Id="10485824" HexId="0x00A00040"/>
+			</Menu>
+			<Menu Name="模组5信息">
+				<Plugin Id="10485840" HexId="0x00A00050"/>
+			</Menu>
+			<Menu Name="模组插拔事件">
+				<Plugin Id="10485856" HexId="0x00A00060"/>
+			</Menu>
+		</Menu>
+		<Menu Name="应用管理维护" MenuId="10485760" MenuMaxCnt="6" Left1="32" Top="32" MenuInterval="1" Visible="1">
+       		<Menu Name="重启应用">
+          		<Plugin Id="10485872" HexId="0x00A00070"/>
+        	</Menu>		
+			<Menu Name="重启模组">
+				<Plugin Id="10485888" HexId="0x00A00080"/>
+			</Menu>
+       		<Menu Name="复位模组">
+          		<Plugin Id="10485904" HexId="0x00A00090"/>
+        	</Menu>
+			<Menu Name="数据初始化">
+				<Plugin Id="10485920" HexId="0x00A000A0"/>
+			</Menu>
+			<Menu Name="参数初始化">
+				<Plugin Id="10485936" HexId="0x00A000B0"/>
+			</Menu>
+			<Menu Name="应用版本信息">
+				<Plugin Id="10485952" HexId="0x00A000C0"/>
+			</Menu>
+		</Menu>
+	</Menus>
+	<TrunDisp Intervel="9">
+		<Plugin Id="983040" HexId="0x000F0000" Name="时间显示"/>
+		<Plugin Id="1048578" HexId="0x00100002" Name="终端信息"/>
+		<Plugin Id="000004" HexId="0x0000004" Name="抄表统计"/>
+	</TrunDisp>
+</FKGA>

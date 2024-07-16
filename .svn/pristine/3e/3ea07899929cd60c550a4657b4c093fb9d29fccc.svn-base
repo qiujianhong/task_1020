@@ -1,0 +1,26 @@
+# 自动化脚本
+
+[base_cfg]
+makepath = SJ_2024
+code     = https://10.10.100.24/svn/svn_app_advanced/branch/BRH_GW_APP_PLATFORM_ALL_OPTIMAL_SJ_801_3562
+package  = ["release/"]
+
+[area]
+list = ["default",  "jiangsu", "zhejiang", "shandong", "anhui", "hubei", "hunan", "jiangxi", "gansu", "shaanxi", "fujian", "shanxi", "chongqing"]
+listname = ["国网", "江苏",    "浙江",     "山东",     "安徽",  "湖北",  "湖南",  "江西",    "甘肃",  "陕西",    "福建",   "山西",   "重庆"]
+
+[cpu]
+list = ["3358", "801"]
+
+[name]
+list   = ["CCU", "ECU", "CCU_FB", "ECU_FB", "ZCU_1", "ZCU_3"]
+CCU    = ["all", "smiOS", "wirelessDCM", "dbCenter", "ccoRouter", "desktopGui", "acMeter", "rspSample", "btManager", "uartManager", "usbManager", "scsMonitor", "iotManager", "taskManager", "puAmr", "pdsManager"]
+ECU    = ["all", "smiOS", "wirelessDCM", "dbCenter", "mapManager", "desktopGui", "taskManager", "maintain", "stAmr", "acMeter", "rspSample", "lcMonitor", "pdsManager", "btManager", "usbManager", "scsMonitor"]
+CCU_FB = ["all", "dbCenter", "wirelessDCM"]
+ECU_FB = ["all", "dbCenter", "wirelessDCM"]
+ZCU_1  = ["all", "smiOS", "dbCenter", "desktopGui", "acMeter", "rspSample", "usbManager", "scsMonitor", "uartManager", "wirelessDCM", "ccoRouter", "lcMonitor", "taskManager", "stAmr", "radioManager"]
+ZCU_3  = ["all", "smiOS", "dbCenter", "desktopGui", "acMeter", "rspSample", "usbManager", "scsMonitor", "uartManager", "wirelessDCM", "taskManager", "stAmr"]
+
+[check]
+cppcheck = build/cppcheck.sh
+splint   = build/splint.sh

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<FKGA Width="160" Height="160" LightonTime="20" TrunDispTime="60" Template="16777215" MenuId="10485760" MenuMaxCnt="6" Left1="24" Top="32" MenuInterval="1">
+	<Menus>
+		<Menu Name="实时数据" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="交采数据" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1">
+				<Menu Name="当前正向电能">
+					<Plugin Id="285278209" HexId="0x11010001"/>
+				</Menu> 
+				<Menu Name="当前反向电能">
+					<Plugin Id="285278210" HexId="0x11010002"/>
+				</Menu> 
+				<Menu Name="四象限无功电能">
+					<Plugin Id="285278211" HexId="0x11010003"/>
+				</Menu> 
+				<Menu Name="电压电流数据">
+					<Plugin Id="285278212" HexId="0x11010004"/>
+				</Menu> 
+				<Menu Name="当前功率示数">
+					<Plugin Id="285278213" HexId="0x11010005"/>
+				</Menu> 
+				<Menu Name="正反向有功需量">
+					<Plugin Id="285278214" HexId="0x11010006"/>
+				</Menu>
+				<Menu Name="谐波数据查看" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+					<Menu Name="谐波含有率" >
+						<Plugin Id="285278218" HexId="0x1101000a"/>
+					</Menu>
+					<Menu Name="谐波含量" >
+						<Plugin Id="285278219" HexId="0x1101000b"/>
+					</Menu>
+				</Menu>
+			</Menu> 
+			<Menu Name="高精度电能" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1">
+				<Menu Name="当前正向电能">
+					<Plugin Id="285278215" HexId="0x11010007"/>
+				</Menu> 
+				<Menu Name="当前反向电能">
+					<Plugin Id="285278216" HexId="0x11010008"/>
+				</Menu> 
+				<Menu Name="四象限无功电能">
+					<Plugin Id="285278217" HexId="0x11010009"/>
+				</Menu> 
+			</Menu> 
+			<Menu Name="遥信状态" >
+				<Plugin Id="285278225" HexId="0x11010011"/>
+			</Menu> 
+		</Menu>
+		<Menu Name="参数定值" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="通信通道设置" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1">
+				<Menu Name="以太网通道" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1">					
+					<Menu Name="以太网通信配置" >
+						<Plugin Id="285409302" HexId="0x11030016"/>
+					</Menu>		
+					<Menu Name="主站配置" >
+						<Plugin Id="285409303" HexId="0x11030017"/>
+					</Menu>	
+					<Menu Name="以太网网络配置" >
+						<Plugin Id="285409298" HexId="0x11030012"/>
+					</Menu>						
+				</Menu>
+				<Menu Name="无线公网通信配置" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1">
+					<Menu Name="通信配置" >
+						<Plugin Id="285409304" HexId="0x11030018"/>
+					</Menu>		
+					<Menu Name="主站配置" >
+						<Plugin Id="285409305" HexId="0x11030019"/>
+					</Menu>					
+				</Menu>	
+			</Menu>
+			<Menu Name="电能表参数设置">
+				<Plugin Id="285409299" HexId="0x11030013"/>
+			</Menu>
+			<Menu Name="终端时间设置" >
+				<Plugin Id="6422529" HexId="0x00620001"/>
+			</Menu>
+			<Menu Name="界面密码设置">
+				<Plugin Id="285474817" HexId="0x11040001"/>
+			</Menu>
+			<Menu Name="终端地址" >
+				<Plugin Id="285409297" HexId="0x11030011"/>
+			</Menu>
+		</Menu>
+		<Menu Name="控制状态" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			
+		</Menu>
+		<Menu Name="电能表示数" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="实时数据">
+				<Plugin Id="285343745" HexId="0x11020001"/>
+			</Menu>
+			<Menu Name="日冻结数据">
+				<Plugin Id="285343746" HexId="0x11020002"/>
+			</Menu>
+		</Menu>
+		<Menu Name="抄表统计" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="任务状态查看" >
+				<Plugin Id="285474821" HexId="0x11040005"/>
+			</Menu>
+			<Menu Name="任务失败电表" >
+				<Plugin Id="285475071" HexId="0x110400ff"/>
+			</Menu>
+			<Menu Name="手动抄表" >
+				<Plugin Id="285474822" HexId="0x11040006"/>
+			</Menu>
+		</Menu>
+		<Menu Name="中文信息" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="一般中文信息">
+				<Plugin Id="285409376" HexId="0x11030060"/>
+			</Menu>
+			<Menu Name="重要中文信息">
+				<Plugin Id="285409377" HexId="0x11030061"/>
+			</Menu> 
+		</Menu>
+		<Menu Name="购电信息" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+		</Menu>
+		<Menu Name="终端信息" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="终端版本">
+				<Plugin Id="285474825" HexId="0x11040009"/>
+			</Menu>
+			<Menu Name="终端地址查看" >
+				<Plugin Id="285409281" HexId="0x11030001"/>
+			</Menu>
+			<Menu Name="终端重启">
+				<Plugin Id="285478923" HexId="0x1104100b"/>
+			</Menu>
+			<Menu Name="数据初始化">
+				<Plugin Id="285474819" HexId="0x11040003"/>
+			</Menu>
+			<Menu Name="参数初始化">
+				<Plugin Id="285474820" HexId="0x11040004"/>
+			</Menu>
+			<Menu Name="交采参数初始化">
+				<Plugin Id="285474824" HexId="0x11040008"/>
+			</Menu>
+			<Menu Name="APP版本信息">
+				<Plugin Id="285474823" HexId="0x11040007"/>
+			</Menu>
+		</Menu>
+		<Menu Name="系统管理与维护" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="0">
+			<Menu Name="安全模式" Visible="0">
+				<Plugin Id="786435" HexId="0x000c0003"/>
+			</Menu>
+			<Menu Name="SSH服务设置" Visible="0">
+				<Plugin Id="10485968" HexId="0x00A000D0"/>
+			</Menu> 
+			<Menu Name="U盘升级" Visible="0">
+				<Plugin Id="10486000" HexId="0x00a000f0"/>
+			</Menu>
+			<Menu Name="日志导出" Visible="0">
+				<Plugin Id="10486001" HexId="0x00a000f1"/>
+			</Menu>
+			<Menu Name="密码修改" Visible="0">
+				<Plugin Id="10486002" HexId="0x00a000f2"/>
+			</Menu>			
+            <Menu Name="日志清除" Visible="0">
+				<Plugin Id="10486003" HexId="0x00A000F3"/>
+			</Menu>	
+            <Menu Name="System命令" Visible="0">
+				<Plugin Id="10486005" HexId="0x00A000F5"/>
+			</Menu>
+            <Menu Name="交采模块升级" Visible="0">
+				<Plugin Id="10486006" HexId="0x00A000F6"/>
+			</Menu>
+			<Menu Name="交采模块版本" Visible="0">
+				<Plugin Id="10486010" HexId="0x00A000FA"/>
+			</Menu>
+			<Menu Name="CPU当前温度" Visible="0">
+				<Plugin Id="10486008" HexId="0x00A000F8"/>
+			</Menu>
+			<Menu Name="电源供电状态" Visible="0">
+				<Plugin Id="10486009" HexId="0x00A000F9"/>
+			</Menu>
+			<Menu Name="无线拨号方式" Visible="0">
+				<Plugin Id="10486012" HexId="0x00A000FC"/>
+			</Menu>
+		</Menu>
+	</Menus>
+	<TrunDisp Intervel="8">
+		<Plugin Id="285278209" HexId="0x11010001" Name="当前正向电能"/>
+		<Plugin Id="285278210" HexId="0x11010002" Name="当前反向电能"/>
+		<Plugin Id="285278211" HexId="0x11010003" Name="四象限无功电能"/>
+		<Plugin Id="285278212" HexId="0x11010004" Name="电压电流数据"/>
+		<Plugin Id="285278213" HexId="0x11010005" Name="当前功率示数"/>
+		<Plugin Id="285278214" HexId="0x11010006" Name="正反向有功需量"/>
+	</TrunDisp>
+</FKGA>

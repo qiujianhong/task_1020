@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="参数">
+  <Item Addr="8001" Name="终端类型" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010001">
+  </Item>
+  <Item Addr="8002" Name="终端操作系统" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010002">
+  </Item>
+  <Item Addr="8003" Name="终端制造商" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010003">
+  </Item>
+  <Item Addr="8004" Name="终端硬件版本" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010004">
+  </Item>
+  <Item Addr="8005" Name="终端软件版本" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010005">
+  </Item>
+  <Item Addr="8006" Name="终端软件版本校验码" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010006">
+  </Item>
+  <Item Addr="8007" Name="终端通信规约类型" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010007">
+  </Item>
+  <Item Addr="8008" Name="终端出厂型号" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010008">
+  </Item>
+  <Item Addr="8009" Name="终端ID号" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="80010009">
+  </Item>
+  <Item Addr="800A" Name="终端网卡MAC地址" TagType="TAG_NONE" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="8001000A">
+  </Item>
+  <Item Addr="8020" Name="电流死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.05" MinValue="0.0" MaxValue="0.3" DealType="00000000">
+  </Item>
+  <Item Addr="8021" Name="电压死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.01" MinValue="0.0" MaxValue="0.3"  DealType="00000000">
+  </Item>
+  <Item Addr="8023" Name="功率死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.05" MinValue="0.0" MaxValue="0.3" DealType="00000000">
+  </Item>
+  <Item Addr="8024" Name="频率死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.005" MinValue="0.0" MaxValue="0.3" DealType="00000000">
+  </Item>
+  <Item Addr="8025" Name="功率因数死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.02" MinValue="0.0" MaxValue="0.3" DealType="00000000">
+  </Item>
+  <Item Addr="8026" Name="PT一次额定" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="10.0" MinValue="0.1" MaxValue="30.0" DealType="00000000">
+  </Item>
+  <Item Addr="8027" Name="PT二次额定" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="220.0" MinValue="0.1" MaxValue="400.0" DealType="00000000">
+  </Item>
+  <Item Addr="8028" Name="低电压报警门限值" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="215" MinValue="22.0" MaxValue="440.0" DealType="00000000">
+  </Item>
+  <Item Addr="8029" Name="低电压报警周期" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="600" MinValue="0.0" MaxValue="10000.0" DealType="00000000">
+  </Item>
+  <Item Addr="802A" Name="过电压报警门限值" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="225" MinValue="22.0" MaxValue="440.0" DealType="00000000">
+  </Item>
+  <Item Addr="802B" Name="过电压报警周期" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="600" MinValue="0.0" MaxValue="10000.0" DealType="00000000">
+  </Item>
+  <Item Addr="802C" Name="重载报警门限值" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1.2" MinValue="0.15" MaxValue="3" DealType="00000000">
+  </Item>
+  <Item Addr="802D" Name="重载报警周期" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="3600" MinValue="0.0" MaxValue="10000.0" DealType="00000000">
+  </Item>
+  <Item Addr="802E" Name="过载报警门限值" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1.4" MinValue="0.15" MaxValue="3" DealType="00000000">
+  </Item>
+  <Item Addr="802F" Name="过载报警周期" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="3600" MinValue="0.0" MaxValue="10000.0" DealType="00000000">
+  </Item>
+  <Item Addr="8030" Name="开入量采集防抖时间" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.2" MinValue="0.01" MaxValue="60.0" DealType="00000000">
+  </Item>
+  <Item Addr="8035" Name="电压零漂" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0" MinValue="0" MaxValue="0" DealType="00000000">
+  </Item>
+  <Item Addr="8036" Name="电流零漂" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0" MinValue="0" MaxValue="0" DealType="00000000">
+  </Item>
+  <Item Addr="8040" Name="L01相CT一次额定" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="600" MinValue="1.0" MaxValue="2000.0" DealType="00000000">
+  </Item>
+  <Item Addr="8041" Name="L01相CT二次额定" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="5.0" DealType="00000000">
+  </Item>
+  <Item Addr="8042" Name="L01零序CT一次额定" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="20" MinValue="1.0" MaxValue="500.0" DealType="00000000">
+  </Item>
+  <Item Addr="8043" Name="L01零序CT二次额定" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="5.0" DealType="00000000">
+  </Item>
+  <Item Addr="8401" Name="配变容量" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8402" Name="电流不平衡定值" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8403" Name="电压不平衡定值" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8404" Name="与开关的对时周期" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8405" Name="电压谐波死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.01" MinValue="0.01" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8406" Name="电流谐波死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.01" MinValue="0.01" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8407" Name="不平衡度死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.01" MinValue="0.01" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8408" Name="负载率死区" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="0.01" MinValue="0.01" MaxValue="1.0" DealType="00000000">
+  </Item>
+  <Item Addr="8409" Name="配变最小短路容量" TagType="TAG_NONE" DataLen="4" Valid="0" DefaultValue="1" MinValue="1.0" MaxValue="1.0" DealType="00000000">
+  </Item>
+</Table>

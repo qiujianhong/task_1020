@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table Name="参数">
+  <Item Addr="00008001" Name="设备状态" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="01">
+  </Item>
+  <Item Addr="00008003" Name="设备地址" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="6" ArrValue="010203040506">
+  </Item>
+  <Item Addr="00008004" Name="通信协议" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="01" ArrValue="00">
+  </Item>
+  <Item Addr="00008005" Name="接线方式" Writable="1" TagType="TAG_OCTSTRING" DataLen="0" Valid="0" DefaultValue="0.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="1" ArrValue="04">
+  </Item>
+  <Item Addr="00008006" Name="CT变比" Writable="0" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="120" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="0" ArrValue="">  <!-- 600/5 -->
+  </Item>
+  <Item Addr="00008007" Name="PT变比" Writable="0" TagType="TAG_UINT16" DataLen="2" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008008" Name="额定电压" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="220.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="220.0">
+  </Item>
+  <Item Addr="00008009" Name="额定电流" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="5.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="5.0">
+  </Item>
+  <Item Addr="0000800A" Name="用户申报容量" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="3.3" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="3.3">
+  </Item>
+  <Item Addr="0000800B" Name="变压器容量" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="3.3" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="1" UpdateArea="0" ArrLen="4" ArrValue="3.3">  <!-- 400KVA -->
+  </Item>
+  
+  <Item Addr="00008020" Name="合格电压上限/二次值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="235.4" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="235.4">
+  </Item>
+  <Item Addr="00008021" Name="合格电压下限/二次值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="204.6" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="204.6">
+  </Item>
+  <Item Addr="00008022" Name="过压越限相对额定值的比例" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="1.15" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="1.15">
+  </Item>
+  <Item Addr="00008023" Name="过压越限恢复相对额定值的比例" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="1.05" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="4" ArrValue="1.05">
+  </Item>
+  <Item Addr="00008024" Name="过负荷、电流越限相对额定值的比例" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="1.2" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008025" Name="过负荷、电流越限恢复相对额定值的比例" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="1.05" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008026" Name="无功过补偿的功率因数（容性）" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="-0.98" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008027" Name="无功过补偿恢复的功率因数（容性）" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.98" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008028" Name="无功欠补偿的功率因数（感性）" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.93" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008029" Name="无功欠补偿恢复的功率因数（感性）" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.97" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000802A" Name="电流不平衡阈值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="30.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000802B" Name="电流不平衡恢复阈值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="25.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000802C" Name="电压不平衡阈值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="4" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000802D" Name="电压不平衡恢复阈值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="3.8" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000802E" Name="零序电流越限相对额定值的比例" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.5" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="0000802F" Name="零序电流越限恢复相对额定值的比例" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.5" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008030" Name="电压谐波总畸变率超限的设置值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="5.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008031" Name="电压谐波总畸变率超限恢复的设置值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="4.75" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008032" Name="电流谐波总畸变率超限的设置值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="5.0" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008033" Name="电流谐波总畸变率超限恢复的设置值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="4.75" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008034" Name="功率因数分段限值 1" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.93" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008035" Name="功率因数分段限值 2" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.98" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008036" Name="频率偏差限值" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.5" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008040" Name="判断负荷过载、电流越限、电压越限、电流不平衡、电压不平衡、电压畸变、电流畸变、零序电流偏大、无功欠补偿、无功过补偿的时间" Writable="1" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="15" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008041" Name="判断负荷过载、电流越限、电压越限、电流不平衡、电压不平衡、电压畸变、电流畸变、零序电流偏大、无功欠补偿、无功过补偿恢复时间" Writable="1" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="15" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008042" Name="判断断相、缺相时间" Writable="1" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008043" Name="判断断相、缺相恢复时间" Writable="1" TagType="TAG_UINT8" DataLen="1" Valid="0" DefaultValue="1" MinValue="0.0" MaxValue="0.0" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008050" Name="电流死区" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.05" MinValue="0.0" MaxValue="0.3" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008051" Name="电压死区" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.01" MinValue="0.0" MaxValue="0.3" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008052" Name="功率死区" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.05" MinValue="0.0" MaxValue="0.3" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008053" Name="频率死区" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.005" MinValue="0.0" MaxValue="0.3" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  <Item Addr="00008054" Name="功率因数死区" Writable="1" TagType="TAG_FLOAT32" DataLen="4" Valid="0" DefaultValue="0.02" MinValue="0.0" MaxValue="0.3" DealType="00000000" UpdateFlag="0" UpdateArea="0" ArrLen="0" ArrValue="">
+  </Item>
+  
+  
+</Table>

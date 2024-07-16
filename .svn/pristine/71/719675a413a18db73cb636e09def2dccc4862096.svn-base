@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<FKGA Width="160" Height="160" LightonTime="20" TrunDispTime="60" Template="16777215" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+	<Menus>
+		<Menu Name="应用信息查看" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="拨号状态" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="286326784" HexId="0x11110000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="286326785" HexId="0x11110001"/>
+				</Menu>
+			</Menu>
+			<Menu Name="拨号事件" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="287375360" HexId="0x11210000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="287375361" HexId="0x11210001"/>
+				</Menu>
+			</Menu> 
+			<Menu Name="模块信息" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="287571968" HexId="0x11240000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="287571969" HexId="0x11240001"/>
+				</Menu>
+			</Menu> 
+			<Menu Name="卫星定位" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="287440896" HexId="0x11220000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="287440897" HexId="0x11220001"/>
+				</Menu>
+			</Menu> 
+			<Menu Name="AT指令查看" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1 AT指令">
+					<Plugin Id="287440898" HexId="0x11220002"/>
+				</Menu>
+				<Menu Name="通道1 拨号AT指令">
+					<Plugin Id="287440899" HexId="0x11220003"/>
+				</Menu>
+				<Menu Name="通道2 AT指令">
+					<Plugin Id="287440900" HexId="0x11220004"/>
+				</Menu>
+				<Menu Name="通道2 拨号AT指令">
+					<Plugin Id="287440901" HexId="0x11220005"/>
+				</Menu>
+			</Menu> 
+		</Menu>
+		<Menu Name="应用参数查看" MenuId="10485760" MenuMaxCnt="7" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="拨号参数" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="289472512" HexId="0x11410000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="289472513" HexId="0x11410001"/>
+				</Menu>
+			</Menu>
+		</Menu>
+		<Menu Name="应用参数设置" MenuId="10485760" MenuMaxCnt="6" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="拨号参数" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="291569664" HexId="0x11610000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="291569665" HexId="0x11610001"/>
+				</Menu>
+			</Menu>
+		</Menu>
+		<Menu Name="应用管理维护" MenuId="10485760" MenuMaxCnt="6" Left1="32" Top="32" MenuInterval="1" Visible="1">
+			<Menu Name="重启应用">
+				<Plugin Id="303104000" HexId="0x12110000"/>
+			</Menu>
+			<Menu Name="重新拨号" MenuId="10485760" MenuMaxCnt="7" Left1="24" Top="32" MenuInterval="1">
+				<Menu Name="通道1">
+					<Plugin Id="319881216" HexId="0x13110000"/>
+				</Menu>
+				<Menu Name="通道2">
+					<Plugin Id="319881217" HexId="0x13110001"/>
+				</Menu>
+			</Menu>
+			<Menu Name="应用版本信息">
+				<Plugin Id="336658432" HexId="0x14110000"/>
+			</Menu>
+		</Menu>
+	</Menus>
+
+</FKGA>
